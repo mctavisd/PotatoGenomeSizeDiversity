@@ -2,21 +2,23 @@ Summer 2026: Delaney McTavish-McHugh, Master's Thesis in Integrative Biology, Un
 
 "Is genome size diversity in the Pinnatifida clade (Solanum L.): associated with climate?"
 
+NOTE: This is unfinished; all required scripts are present, but input files are required and some scripts requiree adjustment to different directories. Steps 3 and 5-7 are complete and fully reproducible.
+
 FILE INDEX:
 
-> analyses: R scripts used for analyses of genome size and climate.
+analyses: R scripts used for analyses of genome size and climate.
 	ancReconstruction.R: Script for estimation of phylogenetic signal and ancestral reconstruction of genome size.
 	PGLS.R: Script for running Phylogenetic Generalized Least Squares analyses.
 	seqEstimatesComp.R: Script for comparing sequence-based genome size estimates to flow cytometry.
 
-> climScripts: Scripts used to clean occurrence data and assign and/or calculate climatic variables.
+climScripts: Scripts used to clean occurrence data and assign and/or calculate climatic variables.
 	01_occCleaning.R: Removes uncertain or duplicate occurrence records from occurrence dataset and performs spatial filtering.
 	02_climateAssignment.R: Assigns values for climatic variables to the clean occurrence dataset and calculates species-level means for each variable.
 	03_climateMeansPCA.R: Performs Principal Component Analysis on species-level mean climatic variables, to examine correlations and prune extraneous variables.
 	04_Niche_Assign.R: Assign niche breadth values to the variables kept after trimming extraneous ones.
 	05_nicheCorr.R. Calculates Pearson's correlation coefficients between each mine and niche variable.
 
-> GSEstimation: Files used for sequence-based genome size estimation.
+GSEstimation: Files used for sequence-based genome size estimation.
 	kraken2: Script for building the required Kraken2 library, krakenBuild.sh.
 	krakenRuns: Script files for running Kraken2 on required files.
 		BGIKrakenRun.sh: Filters BGI sequences.
@@ -29,7 +31,7 @@ FILE INDEX:
 		tepeRespect.sh: Generates RESPECT estimates for sequences sourced from Eric Tepe.
 	respectENV: The virtual environment required to run RESPECT. Put this in your HOME directory.
 	
-> inputs: Input files.
+inputs: Input files.
 	chelsa: CHELSA BIOCLIM+ climate variable maps, plus Wilson & Jetz's mean and SD cloud cover maps.
 	filterFiles: Lists used to rename species or samples during data processing and analyses.
 		clades.csv: List of subclades to which each species in the dataset belongs. Chromosome numbers for each represented species are listed. Petota subclasses (1+2, 3, 4 North, and 4 South) are also listed for Petota species.
@@ -39,7 +41,6 @@ FILE INDEX:
 		LocoGSE.csv: Mean, minimum, maximum and standard deviation of genome size estimates produced by LocoGSE, organized by species.
 		occsToRemove.csv: Extra occurrences to remove that weren't caught by the coded filter functions. Reasons for cutting each occurrence are listed.
 		speciesList.csv: List of species for which genome size estimates are available.
-
 	inputClean: Intermediary files between raw inputs and outputs.
 		cleanData_xoutl.csv: Cleaned occurrence data with outliers removed.
 		cleanData.csv: Cleaned occurrence data with outliers included.
@@ -49,21 +50,19 @@ FILE INDEX:
 		DF_results_all_spatial_filtering.csv: Clean occurrence data post-spatial filtering.
 		nicheMeansSummary.csv: Completed climate dataset with mean per-cpecies climate values and niche breadths. Dataset used for PGLS.
 		summaryClimValues.csv: Per-species mean climate values. Used for Principal Component Analysis.
-
 	inputRaw: Raw input files.
 		BEAST2.tree: Bayesian phylogenetic tree constructed using BEAST2, with branch support.
 		IQ3.fasta.contree: Maximum likelihood phylogenetic tree constructed using IQTREE-3, with branch support.
 		locoRespectCheck.csv: Genome size dataset used for linear regression analysis. Includes estimates from LocoGSE, RESPECT, and flow cytometry.
 		locoRespectGSE.csv: Genome size estimates from LocoGSE and RESPECT, used for making boxplots.
 		mergeOcc.csv: CSV file containing raw occurrence points from Särkinen (CITE) and Gagnon 2022.
-
 	labels: More readable labels for the phylogenetic trees.
 		newTipLabels.csv: New tree tip labels for tree trimmed to only required tips for full-dataset PGLS models.
 		newTipLabelsDiploids.csv: New tree tip labels for tree trimmed to only required tips for diploid-only PGLS models.
 		newTipLabelsFull.csv: New tree tip labels for the full Bayesian tree.
 		newTipLabelsFullIQ.csv:  New tree tip labels for the full maximum likelihood tree.
 
-> outputs: Output files.
+outputs: Output files.
 	ancRec: Ancestral reconstruction outputs.
 		diploid2C.CIs.csv: 95% confidence intervals of ancestral reconstruction of diploid-only holoploid dataset.
 		diploid2CEstimates.csv: Mean genome size estimates of ancestral reconstruction of diploid-only holoploid dataset.
@@ -76,11 +75,9 @@ FILE INDEX:
 		lambdaDiploid2C.rds: Results of calculation of Pagel's lambda for diploid-only holoploid dataset.
 		lambdaFull1Cx.rds: Results of calculation of Pagel's lambda for full monoploid dataset.
 		lambdaFull2C.rds: Results of calculation of Pagel's lambda for full holoploid dataset.
-
 	BEASToutputsBackup: Results of the BEAST2 runs used for the final Bayesian tree.
 		1
 		2
-
 	climate: Results of calculations of climatic variables.
 		climateCorrs.csv: Pearson's correlation coefficients for all climatic variables.
 		climateCorrs.xlsx: Cleaned Pearson's correlation coefficients for all climatic variables; kept variables are in green, while extraneous variables are red.
@@ -88,7 +85,6 @@ FILE INDEX:
 		niche_ranges.csv: Species-level niche breadth variables.
 		nicheMeanCorrs.csv: Pearsons' correlation coefficients of niche breadth and mean values.
 		noOccsPerSpecies.csv: Final sample sizes of occurrences per species.
-
 	figures:
 		1Cx_occMap.pdf: Map of occurrences, coloured by monoploid genome size.
 		2C_occMap.pdf: Map of occurrences, coloured by monoploid genome size.
@@ -99,25 +95,20 @@ FILE INDEX:
 		locoRespectBoxPlots.pdf: Species-level holoploid genome size estimates produced by LocoGSE (upper) and RESPECT (lower).
 		locoRespectCompLines.pdf: Linear models comparing LocoGSE and RESPECT to flow cytometry, for full datasets (top) and diploid only datasets (bottom).
 		IQTreeFull.pdf: Full BEAST2 plastome tree.
-
 	flags: Lists of occurrences flagged by each step of CoordinateCleaner.
 		Solanum_cap_flag.csv/pdf: Occurrences in or near capitals.
 		Solanum_cen_flag.csv/pdf: Occurrences in country centroids.
 		Solanum_dupl_flag.csv/pdf: Duplicate occurrences.
 		Solanum_inst_flag.csv/pdf: Occurrences in or near institutions.
 		Solanum_outl_flag.csv/pdf: Outlier occurrences.
-
 	IQoutputsBackup: Backup of the IQTREE3 run used for the final maximum likelihood tree.
-
 	locoRespectComp: Results of linear regression analyses of comparisons between LocoGSE/RSPECT and flow cytometry.
-
 	occCleaning: Results of occurrence cleaning.
 		occBySpecies: Species-level occurrences.
 			data: Occurrence data css.
 			maps: Species-level occurrence maps.
 		preSpatialFilterOccs: species-level occurrence datasets before the spatial filtering step.
 		spatial_filtering_results.csv: Printed console output of spatial filtering.
-
 	PGLS: Results of Phylogenetic Generalized Least Squares analyses.
 		PGLSDiploid2Ccombo.rds: Results of PGLS on diploid-only holoploid dataset, with combined niche breadth.
 		PGLSDiploid2Cind.rds: Results of PGLS on diploid-only holoploid dataset, with individual niche breadths.
@@ -126,7 +117,7 @@ FILE INDEX:
 		PGLSFull2Ccombo.rds: Results of PGLS on full holoploid dataset, with combined niche breadth.
 		PGLSFull2Cind.rds: Results of PGLS on full holoploid dataset, with individual niche breadths.
 
-> phyloBuild: Scripts for phylogenetic reconstruction.
+phyloBuild: Scripts for phylogenetic reconstruction.
 	Bayesian: BEAST2 Files, for Bayesian phylogeny.
 		1: Storage for 1st run.
 		2. Storage for 2nd run.
@@ -136,12 +127,11 @@ FILE INDEX:
 		FinalIQ.fasta: Input FASTA file used for IQTREE3. Contains full-plastome alignment sequence.
 		iqtree.sh: File for executing the IQTREE3 run.
 
-> plastEnv: Stores files required to create an apptainer image for running ptGAUL, GetOrganelle, and IQTREE3.
+plastEnv: Stores files required to create an apptainer image for running ptGAUL, GetOrganelle, and IQTREE3.
 	plastEnv.yml: Environment file.
 	plastImage.def: Image definition file.
 	
-
-> plastomeAssembly: Files used for plastome assembly.
+plastomeAssembly: Files used for plastome assembly.
 	fastPlast:
 	getOrganelle:
 	ptGAUL:
