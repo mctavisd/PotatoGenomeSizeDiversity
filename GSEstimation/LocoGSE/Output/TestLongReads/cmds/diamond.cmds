@@ -1,0 +1,1 @@
+diamond blastx -p 1 -q /home/gagnonlab/Input/Fresh-150-unclassSeqs.fastq -o Sample_mapped/Fresh-150-unclassSeqs.fastq.out -d /home/gagnonlab/LocoGSE/LocoGSE/db/OneKP.410genes.consensus -e 0.00001 -f 6 

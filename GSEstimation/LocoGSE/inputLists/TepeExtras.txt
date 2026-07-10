@@ -1,0 +1,3 @@
+Tepe_13 /home/gagnonlab/Input/Tepe-13-unclassSeqs_1.fastq /home/gagnonlab/Input/Tepe-13-unclassSeqs_2.fastq
+Tepe_14 /home/gagnonlab/Input/Tepe-14-unclassSeqs_1.fastq /home/gagnonlab/Input/Tepe-14-unclassSeqs_2.fastq
+Tepe_15 /home/gagnonlab/Input/trifolium_LB2368_R1.fastq /home/gagnonlab/Input/trifolium_LB2368_R2.fastq

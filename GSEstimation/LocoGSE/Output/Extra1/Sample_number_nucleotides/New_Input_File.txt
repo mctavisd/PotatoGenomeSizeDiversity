@@ -1,0 +1,1 @@
+/home/gagnonlab/Output/Extra1/Trimmed_directory/trimmed_Extra-1-unclassSeqs_1.fastq /home/gagnonlab/Output/Extra1/Trimmed_directory/trimmed_Extra-1-unclassSeqs_2.fastq 5276055000

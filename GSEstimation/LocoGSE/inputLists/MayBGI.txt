@@ -1,0 +1,11 @@
+96 /home/gagnonlab/Input/May28BGI/96_immite_PI498245_1.fq /home/gagnonlab/Input/May28BGI/96_immite_PI498245_2.fq
+105 /home/gagnonlab/Input/May28BGI/105_albicans_PI365308_1.fq /home/gagnonlab/Input/May28BGI/105_albicans_PI365308_2.fq
+110 /home/gagnonlab/Input/May28BGI/110_brevicaule_PI546008_1.fq /home/gagnonlab/Input/May28BGI/110_brevicaule_PI546008_2.fq
+113 /home/gagnonlab/Input/May28BGI/113_suaveolens_834750004_1.fq /home/gagnonlab/Input/May28BGI/113_suaveolens_834750004_2.fq
+289 /home/gagnonlab/Input/May28BGI/289_caripense_35_1.fq /home/gagnonlab/Input/May28BGI/289_caripense_35_2.fq
+290 /home/gagnonlab/Input/May28BGI/290_1.fq /home/gagnonlab/Input/May28BGI/290_2.fq
+291 /home/gagnonlab/Input/May28BGI/291_mochiquense_PI283114_1.fq /home/gagnonlab/Input/May28BGI/291_mochiquense_PI283114_2.fq
+292 /home/gagnonlab/Input/May28BGI/292_montanum_P2M-1013_1.fq /home/gagnonlab/Input/May28BGI/292_montanum_P2M-1013_2.fq
+293 /home/gagnonlab/Input/May28BGI/293_palustre_PI558168_1.fq /home/gagnonlab/Input/May28BGI/293_palustre_PI558168_2.fq
+294 /home/gagnonlab/Input/May28BGI/294_pennellii_PI246502_1.fq /home/gagnonlab/Input/May28BGI/294_pennellii_PI246502_2.fq
+295 /home/gagnonlab/Input/May28BGI/295_trachycarpum_A44750223_1.fq /home/gagnonlab/Input/May28BGI/295_trachycarpum_A44750223_2.fq

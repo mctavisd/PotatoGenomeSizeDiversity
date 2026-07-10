@@ -1,0 +1,10 @@
+/home/gagnonlab/Input/86-solanum-acroscopicum.fastq 120527759
+/home/gagnonlab/Input/Fresh-86-unclassSeqs.fastq 38917598
+/home/gagnonlab/Input/116-solanum-basendopogon.fastq 359909666
+/home/gagnonlab/Input/Fresh-116-unclassSeqs.fastq 123683443
+/home/gagnonlab/Input/139-solanum-incurvum.fastq 9139704
+/home/gagnonlab/Input/Fresh-139-unclassSeqs.fastq 6974211
+/home/gagnonlab/Input/145-solanum-trizygum.fastq 51885402
+/home/gagnonlab/Input/Fresh-145-unclassSeqs.fastq 41694619
+/home/gagnonlab/Input/150-solanum-trinominum.fastq 3847124
+/home/gagnonlab/Input/Fresh-150-unclassSeqs.fastq 2943020

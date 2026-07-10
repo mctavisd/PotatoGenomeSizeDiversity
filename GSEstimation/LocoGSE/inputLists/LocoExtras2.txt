@@ -1,0 +1,16 @@
+medians_SRR7716184 /home/gagnonlab/Input/Extras/medians_SRR7716184_1.fastq /home/gagnonlab/Input/Extras/medians_SRR7716184_2.fastq
+microdontum_SRR7716312 /home/gagnonlab/Input/Extras/microdontum_SRR7716312_1.fastq /home/gagnonlab/Input/Extras/microdontum_SRR7716312_2.fastq
+mochiquense_SRR14534353 /home/gagnonlab/Input/Extras/mochiquense_SRR14534353_1.fastq /home/gagnonlab/Input/Extras/mochiquense_SRR14534353_2.fastq
+multiinterruptum_SRR5959461 /home/gagnonlab/Input/Extras/multiinterruptum_SRR5959461_1.fastq /home/gagnonlab/Input/Extras/multiinterruptum_SRR5959461_2.fastq
+palustre_SRR7716194 /home/gagnonlab/Input/Extras/palustre_SRR7716194_1.fastq /home/gagnonlab/Input/Extras/palustre_SRR7716194_2.fastq
+paucissectum_SRR5959456 /home/gagnonlab/Input/Extras/paucissectum_SRR5959456_1.fastq /home/gagnonlab/Input/Extras/paucissectum_SRR5959456_2.fastq
+peruvianum_SRR27639553 /home/gagnonlab/Input/Extras/peruvianum_SRR27639553_1.fastq /home/gagnonlab/Input/Extras/peruvianum_SRR27639553_2.fastq
+pimpinellifolium_SRR28980173 /home/gagnonlab/Input/Extras/pimpinellifolium_SRR28980173_1.fastq /home/gagnonlab/Input/Extras/pimpinellifolium_SRR28980173_2.fastq
+pinnatisectum_SRR5958648 /home/gagnonlab/Input/Extras/pinnatisectum_SRR5958648_1.fastq /home/gagnonlab/Input/Extras/pinnatisectum_SRR5958648_2.fastq
+polyadenium_SRR5958639 /home/gagnonlab/Input/Extras/polyadenium_SRR5958639_1.fastq /home/gagnonlab/Input/Extras/polyadenium_SRR5958639_2.fastq
+raphanifolium_SRR17640827 /home/gagnonlab/Input/Extras/raphanifolium_SRR17640827_1.fastq /home/gagnonlab/Input/Extras/raphanifolium_SRR17640827_2.fastq
+stenophyllidium_SRR5957603 /home/gagnonlab/Input/Extras/stenophyllidium_SRR5957603_1.fastq /home/gagnonlab/Input/Extras/stenophyllidium_SRR5957603_2.fastq
+venturii_SRR5959446 /home/gagnonlab/Input/Extras/venturii_SRR5959446_1.fastq /home/gagnonlab/Input/Extras/venturii_SRR5959446_2.fastq
+vernei_SRR7716313 /home/gagnonlab/Input/Extras/vernei_SRR7716313_1.fastq /home/gagnonlab/Input/Extras/vernei_SRR7716313_2.fastq
+verrucosum_SRR7716310 /home/gagnonlab/Input/Extras/verrucosum_SRR7716310_1.fastq /home/gagnonlab/Input/Extras/verrucosum_SRR7716310_2.fastq
+violaceimarmoratum_SRR7716318 /home/gagnonlab/Input/Extras/violaceimarmoratum_SRR7716318_1.fastq /home/gagnonlab/Input/Extras/violaceimarmoratum_SRR7716318_2.fastq

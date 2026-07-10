@@ -1,0 +1,11 @@
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_96_immite_PI498245_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_96_immite_PI498245_2.fq 3247757800
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_105_albicans_PI365308_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_105_albicans_PI365308_2.fq 5209477200
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_110_brevicaule_PI546008_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_110_brevicaule_PI546008_2.fq 5168202600
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_113_suaveolens_834750004_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_113_suaveolens_834750004_2.fq 3144780400
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_289_caripense_35_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_289_caripense_35_2.fq 2760018200
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_290_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_290_2.fq 3072868000
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_291_mochiquense_PI283114_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_291_mochiquense_PI283114_2.fq 2996862000
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_292_montanum_P2M-1013_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_292_montanum_P2M-1013_2.fq 3212075600
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_293_palustre_PI558168_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_293_palustre_PI558168_2.fq 3219452000
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_294_pennellii_PI246502_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_294_pennellii_PI246502_2.fq 2685783200
+/home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_295_trachycarpum_A44750223_1.fq /home/gagnonlab/Output/MayBGI/Trimmed_directory/trimmed_295_trachycarpum_A44750223_2.fq 3218884200

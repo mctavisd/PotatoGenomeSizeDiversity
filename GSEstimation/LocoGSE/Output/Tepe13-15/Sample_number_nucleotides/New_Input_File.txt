@@ -1,0 +1,3 @@
+/home/gagnonlab/Output/Tepe13-15/Trimmed_directory/trimmed_Tepe-13-unclassSeqs_1.fastq /home/gagnonlab/Output/Tepe13-15/Trimmed_directory/trimmed_Tepe-13-unclassSeqs_2.fastq 3831449800
+/home/gagnonlab/Output/Tepe13-15/Trimmed_directory/trimmed_Tepe-14-unclassSeqs_1.fastq /home/gagnonlab/Output/Tepe13-15/Trimmed_directory/trimmed_Tepe-14-unclassSeqs_2.fastq 3772556800
+/home/gagnonlab/Output/Tepe13-15/Trimmed_directory/trimmed_trifolium_LB2368_R1.fastq /home/gagnonlab/Output/Tepe13-15/Trimmed_directory/trimmed_trifolium_LB2368_R2.fastq 3573804000

@@ -1,0 +1,16 @@
+Extra-10_Filtered /home/gagnonlab/Input/Extras/Extra-10-unclassSeqs_1.fastq /home/gagnonlab/Input/Extras/Extra-10-unclassSeqs_2.fastq
+Extra-11_Filtered /home/gagnonlab/Input/Extras/Extra-11-unclassSeqs_1.fastq /home/gagnonlab/Input/Extras/Extra-11-unclassSeqs_2.fastq
+Extra-17_Filtered /home/gagnonlab/Input/Extras/Extra-17-unclassSeqs_1.fastq /home/gagnonlab/Input/Extras/Extra-17-unclassSeqs_2.fastq
+albornozii_SRR5959458 /home/gagnonlab/Input/Extras/albornozii_SRR5959458_1.fastq /home/gagnonlab/Input/Extras/albornozii_SRR5959458_2.fastq
+berthaultii_SRR7716097 /home/gagnonlab/Input/Extras/berthaultii_SRR7716097_1.fastq /home/gagnonlab/Input/Extras/berthaultii_SRR7716097_2.fastq
+blanco-galdosii_SRR24976384 /home/gagnonlab/Input/Extras/blanco-galdosii_SRR24976384_1.fastq /home/gagnonlab/Input/Extras/blanco-galdosii_SRR24976384_2.fastq
+bulbocastanum_SRR5958651 /home/gagnonlab/Input/Extras/bulbocastanum_SRR5958651_1.fastq /home/gagnonlab/Input/Extras/bulbocastanum_SRR5958651_2.fastq
+cardiophyllum_SRR7716129 /home/gagnonlab/Input/Extras/cardiophyllum_SRR7716129_1.fastq /home/gagnonlab/Input/Extras/cardiophyllum_SRR7716129_2.fastq
+chacoense_SRR7716130 /home/gagnonlab/Input/Extras/chacoense_SRR7716130_1.fastq /home/gagnonlab/Input/Extras/chacoense_SRR7716130_2.fastq
+chomatophilum_SRR5959450 /home/gagnonlab/Input/Extras/chomatophilum_SRR5959450_1.fastq /home/gagnonlab/Input/Extras/chomatophilum_SRR5959450_2.fastq
+etuberosum_SRR7716135 /home/gagnonlab/Input/Extras/etuberosum_SRR7716135_1.fastq /home/gagnonlab/Input/Extras/etuberosum_SRR7716135_2.fastq
+hjertingii_SRR13766187 /home/gagnonlab/Input/Extras/hjertingii_SRR13766187_1.fastq /home/gagnonlab/Input/Extras/hjertingii_SRR13766187_2.fastq
+iopetalum_SRR14532939 /home/gagnonlab/Input/Extras/iopetalum_SRR14532939_1.fastq /home/gagnonlab/Input/Extras/iopetalum_SRR14532939_2.fastq
+jamesii_SRR5958652 /home/gagnonlab/Input/Extras/jamesii_SRR5958652_1.fastq /home/gagnonlab/Input/Extras/jamesii_SRR5958652_2.fastq
+kurtzianum_SRR7716162 /home/gagnonlab/Input/Extras/kurtzianum_SRR7716162_1.fastq /home/gagnonlab/Input/Extras/kurtzianum_SRR7716162_2.fastq
+laxissimum_SRR7716170 /home/gagnonlab/Input/Extras/laxissimum_SRR7716170_1.fastq /home/gagnonlab/Input/Extras/laxissimum_SRR7716170_2.fastq
