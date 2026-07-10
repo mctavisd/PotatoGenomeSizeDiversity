@@ -1,0 +1,14 @@
+name: base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - pip
+  - star
+  - bwa
+  - multiqc
+  - ptgaul
+  - getorganelle
+  - iqtree3

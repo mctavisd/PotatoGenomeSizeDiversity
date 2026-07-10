@@ -1,0 +1,750 @@
+[1] NA
+[1] "acroscopicum_24 is a matrix of 7 occurence records"
+[1] 7 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 5 rows, and 18 columns"
+[1] NA
+[1] "acroscopicum_48 is a matrix of 1 occurence records"
+[1] 1 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 6 rows, and 18 columns"
+[1] NA
+[1] "acaule_48 is a matrix of 286 occurence records"
+[1] 286   2
+[1] "There is a difference of 104 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 188 rows, and 18 columns"
+[1] NA
+[1] "acaule_72 is a matrix of 1 occurence records"
+[1] 1 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 189 rows, and 18 columns"
+[1] NA
+[1] "aemulans_48 is a matrix of 3 occurence records"
+[1] 3 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 192 rows, and 18 columns"
+[1] NA
+[1] "andreanum_24 is a matrix of 10 occurence records"
+[1] 10  2
+[1] "There is a difference of 2 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 200 rows, and 18 columns"
+[1] NA
+[1] "andreanum_48 is a matrix of 21 occurence records"
+[1] 21  2
+[1] "There is a difference of 5 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 216 rows, and 18 columns"
+[1] NA
+[1] "brevicaule_24 is a matrix of 187 occurence records"
+[1] 187   2
+[1] "There is a difference of 80 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 323 rows, and 18 columns"
+[1] NA
+[1] "brevicaule_48 is a matrix of 47 occurence records"
+[1] 47  2
+[1] "There is a difference of 17 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 353 rows, and 18 columns"
+[1] NA
+[1] "brevicaule_72 is a matrix of 9 occurence records"
+[1] 9 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 360 rows, and 18 columns"
+[1] NA
+[1] "bulbocastanum_24 is a matrix of 24 occurence records"
+[1] 24  2
+[1] "There is a difference of 8 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 376 rows, and 18 columns"
+[1] NA
+[1] "candolleanum_24 is a matrix of 268 occurence records"
+[1] 268   2
+[1] "There is a difference of 137 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 507 rows, and 18 columns"
+[1] NA
+[1] "cardiophyllum_24 is a matrix of 5 occurence records"
+[1] 5 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 512 rows, and 18 columns"
+[1] NA
+[1] "chacoense_24 is a matrix of 23 occurence records"
+[1] 23  2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 531 rows, and 18 columns"
+[1] NA
+[1] "chacoense_36 is a matrix of 2 occurence records"
+[1] 2 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 533 rows, and 18 columns"
+[1] NA
+[1] "chacoense_48 is a matrix of 1 occurence records"
+[1] 1 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 534 rows, and 18 columns"
+[1] NA
+[1] "commersonii_24 is a matrix of 25 occurence records"
+[1] 25  2
+[1] "There is a difference of 3 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 556 rows, and 18 columns"
+[1] NA
+[1] "immite_24 is a matrix of 5 occurence records"
+[1] 5 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 561 rows, and 18 columns"
+[1] NA
+[1] "medians_36 is a matrix of 3 occurence records"
+[1] 3 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 564 rows, and 18 columns"
+[1] NA
+[1] "medians_24 is a matrix of 35 occurence records"
+[1] 35  2
+[1] "There is a difference of 19 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 580 rows, and 18 columns"
+[1] NA
+[1] "microdontum_24 is a matrix of 40 occurence records"
+[1] 40  2
+[1] "There is a difference of 11 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 609 rows, and 18 columns"
+[1] NA
+[1] "multiinterruptum_24 is a matrix of 50 occurence records"
+[1] 50  2
+[1] "There is a difference of 32 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 627 rows, and 18 columns"
+[1] NA
+[1] "verrucosum_24 is a matrix of 13 occurence records"
+[1] 13  2
+[1] "There is a difference of 2 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 638 rows, and 18 columns"
+[1] NA
+[1] "albornozii is a matrix of 10 occurence records"
+[1] 10  2
+[1] "There is a difference of 6 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 648 rows, and 18 columns"
+[1] NA
+[1] "infundibuliforme is a matrix of 136 occurence records"
+[1] 136   2
+[1] "There is a difference of 53 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 731 rows, and 18 columns"
+[1] NA
+[1] "jamesii is a matrix of 187 occurence records"
+[1] 187   2
+[1] "There is a difference of 37 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 881 rows, and 18 columns"
+[1] NA
+[1] "raphanifolium is a matrix of 95 occurence records"
+[1] 95  2
+[1] "There is a difference of 54 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 922 rows, and 18 columns"
+[1] NA
+[1] "albicans is a matrix of 59 occurence records"
+[1] 59  2
+[1] "There is a difference of 37 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 944 rows, and 18 columns"
+[1] NA
+[1] "berthaultii is a matrix of 162 occurence records"
+[1] 162   2
+[1] "There is a difference of 87 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1019 rows, and 18 columns"
+[1] NA
+[1] "blanco-galdosii is a matrix of 10 occurence records"
+[1] 10  2
+[1] "There is a difference of 3 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1026 rows, and 18 columns"
+[1] NA
+[1] "chomatophilum is a matrix of 140 occurence records"
+[1] 140   2
+[1] "There is a difference of 78 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1088 rows, and 18 columns"
+[1] NA
+[1] "clarum is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 19 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1097 rows, and 18 columns"
+[1] NA
+[1] "colombianum is a matrix of 256 occurence records"
+[1] 256   2
+[1] "There is a difference of 120 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1233 rows, and 18 columns"
+[1] NA
+[1] "demissum is a matrix of 90 occurence records"
+[1] 90  2
+[1] "There is a difference of 28 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1295 rows, and 18 columns"
+[1] NA
+[1] "doddsii is a matrix of 14 occurence records"
+[1] 14  2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1305 rows, and 18 columns"
+[1] NA
+[1] "dolichocremastrum is a matrix of 33 occurence records"
+[1] 33  2
+[1] "There is a difference of 15 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1323 rows, and 18 columns"
+[1] NA
+[1] "ehrenbergii is a matrix of 50 occurence records"
+[1] 50  2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1369 rows, and 18 columns"
+[1] NA
+[1] "flahaultii is a matrix of 24 occurence records"
+[1] 24  2
+[1] "There is a difference of 7 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1386 rows, and 18 columns"
+[1] NA
+[1] "gandarillasii is a matrix of 13 occurence records"
+[1] 13  2
+[1] "There is a difference of 3 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1396 rows, and 18 columns"
+[1] NA
+[1] "guerreroense is a matrix of 3 occurence records"
+[1] 3 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 1399 rows, and 18 columns"
+[1] NA
+[1] "hjertingii is a matrix of 17 occurence records"
+[1] 17  2
+[1] "There is a difference of 3 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1413 rows, and 18 columns"
+[1] NA
+[1] "hougasii is a matrix of 21 occurence records"
+[1] 21  2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1430 rows, and 18 columns"
+[1] NA
+[1] "huancabambense is a matrix of 12 occurence records"
+[1] 12  2
+[1] "There is a difference of 6 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1436 rows, and 18 columns"
+[1] NA
+[1] "iopetalum is a matrix of 72 occurence records"
+[1] 72  2
+[1] "There is a difference of 7 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1501 rows, and 18 columns"
+[1] NA
+[1] "kurtzianum is a matrix of 103 occurence records"
+[1] 103   2
+[1] "There is a difference of 21 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1583 rows, and 18 columns"
+[1] NA
+[1] "laxissimum is a matrix of 35 occurence records"
+[1] 35  2
+[1] "There is a difference of 7 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1611 rows, and 18 columns"
+[1] NA
+[1] "lesteri is a matrix of 9 occurence records"
+[1] 9 2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1616 rows, and 18 columns"
+[1] NA
+[1] "lignicaule is a matrix of 16 occurence records"
+[1] 16  2
+[1] "There is a difference of 8 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1624 rows, and 18 columns"
+[1] NA
+[1] "longiconicum is a matrix of 36 occurence records"
+[1] 36  2
+[1] "There is a difference of 19 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1641 rows, and 18 columns"
+[1] NA
+[1] "mochiquense is a matrix of 33 occurence records"
+[1] 33  2
+[1] "There is a difference of 11 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1663 rows, and 18 columns"
+[1] NA
+[1] "morelliforme is a matrix of 38 occurence records"
+[1] 38  2
+[1] "There is a difference of 8 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1693 rows, and 18 columns"
+[1] NA
+[1] "neocardenasii is a matrix of 9 occurence records"
+[1] 9 2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1698 rows, and 18 columns"
+[1] NA
+[1] "neorossii is a matrix of 20 occurence records"
+[1] 20  2
+[1] "There is a difference of 6 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1712 rows, and 18 columns"
+[1] NA
+[1] "okadae is a matrix of 15 occurence records"
+[1] 15  2
+[1] "There is a difference of 5 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1722 rows, and 18 columns"
+[1] NA
+[1] "oxycarpum is a matrix of 24 occurence records"
+[1] 24  2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1742 rows, and 18 columns"
+[1] NA
+[1] "paucissectum is a matrix of 9 occurence records"
+[1] 9 2
+[1] "There is a difference of 5 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 1751 rows, and 18 columns"
+[1] NA
+[1] "pinnatisectum is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 6 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1773 rows, and 18 columns"
+[1] NA
+[1] "piurae is a matrix of 11 occurence records"
+[1] 11  2
+[1] "There is a difference of 6 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1778 rows, and 18 columns"
+[1] NA
+[1] "polyadenium is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 4 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1802 rows, and 18 columns"
+[1] NA
+[1] "schenckii is a matrix of 16 occurence records"
+[1] 16  2
+[1] "There is a difference of 3 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1815 rows, and 18 columns"
+[1] NA
+[1] "stenophyllidium is a matrix of 51 occurence records"
+[1] 51  2
+[1] "There is a difference of 6 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1860 rows, and 18 columns"
+[1] NA
+[1] "stipuloideum is a matrix of 59 occurence records"
+[1] 59  2
+[1] "There is a difference of 18 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 1901 rows, and 18 columns"
+[1] NA
+[1] "stoloniferum is a matrix of 449 occurence records"
+[1] 449   2
+[1] "There is a difference of 145 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2205 rows, and 18 columns"
+[1] NA
+[1] "tarnii is a matrix of 8 occurence records"
+[1] 8 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2211 rows, and 18 columns"
+[1] NA
+[1] "trifidum is a matrix of 22 occurence records"
+[1] 22  2
+[1] "There is a difference of 8 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2225 rows, and 18 columns"
+[1] NA
+[1] "venturii is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 2 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2251 rows, and 18 columns"
+[1] NA
+[1] "vernei is a matrix of 52 occurence records"
+[1] 52  2
+[1] "There is a difference of 13 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2290 rows, and 18 columns"
+[1] NA
+[1] "violaceimarmoratum is a matrix of 45 occurence records"
+[1] 45  2
+[1] "There is a difference of 12 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2323 rows, and 18 columns"
+[1] NA
+[1] "anceps is a matrix of 194 occurence records"
+[1] 194   2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2517 rows, and 18 columns"
+[1] NA
+[1] "angustialatum is a matrix of 5 occurence records"
+[1] 5 2
+[1] "There is a difference of 3 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 2522 rows, and 18 columns"
+[1] NA
+[1] "appendiculatum is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2550 rows, and 18 columns"
+[1] NA
+[1] "arcanum is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2578 rows, and 18 columns"
+[1] NA
+[1] "baretiae is a matrix of 10 occurence records"
+[1] 10  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2588 rows, and 18 columns"
+[1] NA
+[1] "basendopogon is a matrix of 28 occurence records"
+[1] 28  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2616 rows, and 18 columns"
+[1] NA
+[1] "boliviense is a matrix of 167 occurence records"
+[1] 167   2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2783 rows, and 18 columns"
+[1] NA
+[1] "caripense is a matrix of 73 occurence records"
+[1] 73  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2856 rows, and 18 columns"
+[1] NA
+[1] "catilliflorum is a matrix of 5 occurence records"
+[1] 5 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2861 rows, and 18 columns"
+[1] NA
+[1] "chachapoyasense is a matrix of 2 occurence records"
+[1] 2 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 2863 rows, and 18 columns"
+[1] NA
+[1] "chamaepolybotryon is a matrix of 3 occurence records"
+[1] 3 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 2866 rows, and 18 columns"
+[1] NA
+[1] "chilense is a matrix of 72 occurence records"
+[1] 72  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2938 rows, and 18 columns"
+[1] NA
+[1] "chimborazense is a matrix of 4 occurence records"
+[1] 4 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 2942 rows, and 18 columns"
+[1] NA
+[1] "chmielewskii is a matrix of 10 occurence records"
+[1] 10  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2952 rows, and 18 columns"
+[1] NA
+[1] "cochoae is a matrix of 7 occurence records"
+[1] 7 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2959 rows, and 18 columns"
+[1] NA
+[1] "complectens is a matrix of 7 occurence records"
+[1] 7 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2966 rows, and 18 columns"
+[1] NA
+[1] "conicum is a matrix of 26 occurence records"
+[1] 26  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 2992 rows, and 18 columns"
+[1] NA
+[1] "corneliomulleri is a matrix of 51 occurence records"
+[1] 51  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3043 rows, and 18 columns"
+[1] NA
+[1] "crassinervium is a matrix of 11 occurence records"
+[1] 11  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3054 rows, and 18 columns"
+[1] NA
+[1] "etuberosum is a matrix of 38 occurence records"
+[1] 38  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3092 rows, and 18 columns"
+[1] NA
+[1] "evolvulifolium is a matrix of 42 occurence records"
+[1] 42  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3134 rows, and 18 columns"
+[1] NA
+[1] "fernandezianum is a matrix of 2 occurence records"
+[1] 2 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3136 rows, and 18 columns"
+[1] NA
+[1] "habrochaites is a matrix of 85 occurence records"
+[1] 85  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3221 rows, and 18 columns"
+[1] NA
+[1] "huaylasense is a matrix of 7 occurence records"
+[1] 7 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3228 rows, and 18 columns"
+[1] NA
+[1] "incurvum is a matrix of 11 occurence records"
+[1] 11  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3239 rows, and 18 columns"
+[1] NA
+[1] "ionidium is a matrix of 2 occurence records"
+[1] 2 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3241 rows, and 18 columns"
+[1] NA
+[1] "juglandifolium is a matrix of 80 occurence records"
+[1] 80  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3321 rows, and 18 columns"
+[1] NA
+[1] "loxophyllum is a matrix of 13 occurence records"
+[1] 13  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3334 rows, and 18 columns"
+[1] NA
+[1] "mite is a matrix of 107 occurence records"
+[1] 107   2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3441 rows, and 18 columns"
+[1] NA
+[1] "neorickii is a matrix of 20 occurence records"
+[1] 20  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3461 rows, and 18 columns"
+[1] NA
+[1] "ochranthum is a matrix of 48 occurence records"
+[1] 48  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3509 rows, and 18 columns"
+[1] NA
+[1] "oxycoccoides is a matrix of 10 occurence records"
+[1] 10  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3519 rows, and 18 columns"
+[1] NA
+[1] "pacificum is a matrix of 3 occurence records"
+[1] 3 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3522 rows, and 18 columns"
+[1] NA
+[1] "palustre is a matrix of 58 occurence records"
+[1] 58  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3580 rows, and 18 columns"
+[1] NA
+[1] "pennellii is a matrix of 36 occurence records"
+[1] 36  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3616 rows, and 18 columns"
+[1] NA
+[1] "pentaphyllum is a matrix of 22 occurence records"
+[1] 22  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3638 rows, and 18 columns"
+[1] NA
+[1] "peruvianum is a matrix of 45 occurence records"
+[1] 45  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3683 rows, and 18 columns"
+[1] NA
+[1] "phaseoloides is a matrix of 13 occurence records"
+[1] 13  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3696 rows, and 18 columns"
+[1] NA
+[1] "pimpinellifolium is a matrix of 107 occurence records"
+[1] 107   2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3803 rows, and 18 columns"
+[1] NA
+[1] "savanillense is a matrix of 6 occurence records"
+[1] 6 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3809 rows, and 18 columns"
+[1] NA
+[1] "skutchii is a matrix of 2 occurence records"
+[1] 2 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3811 rows, and 18 columns"
+[1] NA
+[1] "sodiroi is a matrix of 9 occurence records"
+[1] 9 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3820 rows, and 18 columns"
+[1] NA
+[1] "suaveolens is a matrix of 32 occurence records"
+[1] 32  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3852 rows, and 18 columns"
+[1] NA
+[1] "tabanoense is a matrix of 14 occurence records"
+[1] 14  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3866 rows, and 18 columns"
+[1] NA
+[1] "taeniotrichum is a matrix of 7 occurence records"
+[1] 7 2
+[1] "There is a difference of 4 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3873 rows, and 18 columns"
+[1] NA
+[1] "ternatum is a matrix of 56 occurence records"
+[1] 56  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3929 rows, and 18 columns"
+[1] NA
+[1] "trachycarpum is a matrix of 4 occurence records"
+[1] 4 2
+[1] "There is a difference of 2 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3933 rows, and 18 columns"
+[1] NA
+[1] "trifolium is a matrix of 3 occurence records"
+[1] 3 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "Original dataset had less than five occurence points retained"
+[1] "df.results now has 3936 rows, and 18 columns"
+[1] NA
+[1] "trizygum is a matrix of 20 occurence records"
+[1] 20  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3956 rows, and 18 columns"
+[1] NA
+[1] "uleanum is a matrix of 22 occurence records"
+[1] 22  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3978 rows, and 18 columns"
+[1] NA
+[1] "brachyantherum is a matrix of 14 occurence records"
+[1] 14  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 3992 rows, and 18 columns"
+[1] NA
+[1] "montanum is a matrix of 40 occurence records"
+[1] 40  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 4032 rows, and 18 columns"
+[1] NA
+[1] "multifidum is a matrix of 35 occurence records"
+[1] 35  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 4067 rows, and 18 columns"
+[1] NA
+[1] "paposanum is a matrix of 32 occurence records"
+[1] 32  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 4099 rows, and 18 columns"
+[1] NA
+[1] "pinnatum is a matrix of 30 occurence records"
+[1] 30  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 4129 rows, and 18 columns"
+[1] NA
+[1] "remyanum is a matrix of 15 occurence records"
+[1] 15  2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 4144 rows, and 18 columns"
+[1] NA
+[1] "trinominum is a matrix of 9 occurence records"
+[1] 9 2
+[1] "There is a difference of 0 between the two datasets."
+[1] "More than five occurence points retained"
+[1] "df.results now has 4153 rows, and 18 columns"

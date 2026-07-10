@@ -1,0 +1,8 @@
+INSTRUCTIONS FOR TRIMMING
+
+If running with intergenic sequences, run ambigFilter.sh first to remove ambiguously aligned sequences.
+
+Names of input folders are hard-coded: name intergenic sequences "Input_IntergenicRaw".
+Name all others "Input".
+
+Then run trimSort.sh. Rename each folder after running to avoid saving over other runs.

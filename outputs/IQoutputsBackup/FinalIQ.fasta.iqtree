@@ -1,0 +1,766 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: ./Input/FinalIQ.fasta
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 379528
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 117 sequences with 128820 nucleotide sites
+Number of constant sites: 118655 (= 92.1091% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 118655 (= 92.1091% of all sites)
+Number of parsimony informative sites: 5310
+Number of distinct site patterns: 4960
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+I+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+I+R6      -291501.374  583500.748 +    0.966  583501.716 +    0.966  585932.524 +        1
+GTR+F+I+R6      -291503.723  583507.446 -   0.0339  583508.422 -   0.0338  585948.989 - 0.000266
+GTR+F+R6        -291517.212  583532.423 - 1.28e-07  583533.392 - 1.28e-07  585964.200 - 1.32e-07
+TVM+F+R6        -291545.323  583586.646 - 2.15e-19  583587.606 - 2.16e-19  586008.656 - 2.94e-17
+TVM+F+I+R5      -291580.174  583654.348 - 4.28e-34  583655.301 - 4.31e-34  586066.593 - 7.72e-30
+GTR+F+I+R5      -291578.021  583652.043 - 1.35e-33  583653.004 - 1.36e-33  586074.053 - 1.85e-31
+K3Pu+F+I+R6     -291621.757  583737.514 - 3.73e-52  583738.467 - 3.76e-52  586149.759 - 6.73e-48
+TIM+F+I+R6      -291619.333  583734.666 - 1.55e-51  583735.626 - 1.56e-51  586156.676 - 2.12e-49
+TIM+F+R6        -291665.450  583824.900 - 3.95e-71  583825.853 - 3.98e-71  586237.144 - 7.12e-67
+K3Pu+F+R6       -291685.832  583863.663 - 1.51e-79  583864.608 - 1.53e-79  586266.141 -  3.6e-73
+K3Pu+F+I+R5     -291692.946  583875.893 - 3.34e-82  583876.830 - 3.39e-82  586268.605 - 1.05e-73
+TIM+F+I+R5      -291689.840  583871.679 - 2.74e-81  583872.624 - 2.78e-81  586274.157 - 6.54e-75
+TPM2u+F+I+R6    -293476.352  587446.703 -        0  587447.656 -        0  589858.948 -        0
+TIM2+F+I+R6     -293475.602  587447.205 -        0  587448.165 -        0  589869.215 -        0
+TPM2u+F+I+R5    -293534.076  587558.151 -        0  587559.089 -        0  589950.863 -        0
+TPM2u+F+R6      -293528.229  587548.458 -        0  587549.403 -        0  589950.936 -        0
+TIM2+F+R6       -293527.188  587548.375 -        0  587549.328 -        0  589960.620 -        0
+TIM2+F+I+R5     -293533.078  587558.156 -        0  587559.101 -        0  589960.634 -        0
+TPM3u+F+I+R6    -293640.279  587774.558 -        0  587775.511 -        0  590186.803 -        0
+TIM3+F+I+R6     -293635.464  587766.927 -        0  587767.888 -        0  590188.938 -        0
+TPM3u+F+I+R5    -293687.299  587864.598 -        0  587865.536 -        0  590257.310 -        0
+TPM3u+F+R6      -293681.535  587855.069 -        0  587856.015 -        0  590257.548 -        0
+TIM3+F+I+R5     -293682.570  587857.141 -        0  587858.086 -        0  590259.619 -        0
+TIM3+F+R6       -293676.786  587847.573 -        0  587848.526 -        0  590259.817 -        0
+TN+F+I+R6       -293748.208  587990.416 -        0  587991.369 -        0  590402.661 -        0
+HKY+F+I+R6      -293769.795  588031.591 -        0  588032.536 -        0  590434.069 -        0
+HKY+F+I+R5      -293795.511  588079.022 -        0  588079.952 -        0  590461.968 -        0
+HKY+F+R6        -293790.036  588070.073 -        0  588071.010 -        0  590462.785 -        0
+TN+F+I+R5       -293792.456  588074.913 -        0  588075.851 -        0  590467.625 -        0
+TN+F+R6         -293786.979  588065.958 -        0  588066.903 -        0  590468.436 -        0
+F81+F+I+R5      -294171.268  588828.535 -        0  588829.457 -        0  591201.715 -        0
+F81+F+R6        -294166.125  588820.251 -        0  588821.181 -        0  591203.197 -        0
+F81+F+I+R6      -294164.171  588818.342 -        0  588819.279 -        0  591211.054 -        0
+GTR+I+R6        -296495.012  593484.023 -        0  593484.976 -        0  595896.268 -        0
+SYM+I+R6        -296495.093  593484.186 -        0  593485.138 -        0  595896.430 -        0
+SYM+I+R6        -296495.093  593484.186 -        0  593485.138 -        0  595896.430 -        0
+TVM+I+R6        -296501.525  593495.051 -        0  593495.996 -        0  595897.529 -        0
+TIM+I+R6        -296507.544  593505.088 -        0  593506.026 -        0  595897.800 -        0
+TVMe+I+R6       -296501.687  593495.374 -        0  593496.319 -        0  595897.852 -        0
+TVMe+I+R6       -296501.687  593495.374 -        0  593496.319 -        0  595897.852 -        0
+TIMe+I+R6       -296507.704  593505.409 -        0  593506.346 -        0  595898.121 -        0
+TIMe+I+R6       -296507.704  593505.409 -        0  593506.346 -        0  595898.121 -        0
+K3Pu+I+R6       -296513.680  593515.360 -        0  593516.289 -        0  595898.305 -        0
+K3P+I+R6        -296513.682  593515.364 -        0  593516.294 -        0  595898.310 -        0
+K3P+I+R6        -296513.682  593515.364 -        0  593516.294 -        0  595898.310 -        0
+K3Pu+I+R5       -296570.702  593625.403 -        0  593626.318 -        0  595988.816 -        0
+K3P+I+R5        -296570.800  593625.599 -        0  593626.514 -        0  595989.013 -        0
+K3P+I+R5        -296570.800  593625.599 -        0  593626.514 -        0  595989.013 -        0
+TIM+I+R5        -296565.556  593617.111 -        0  593618.033 -        0  595990.291 -        0
+TIMe+I+R5       -296565.651  593617.303 -        0  593618.225 -        0  595990.482 -        0
+TIMe+I+R5       -296565.651  593617.303 -        0  593618.225 -        0  595990.482 -        0
+K3Pu+R6         -296565.960  593617.921 -        0  593618.843 -        0  595991.100 -        0
+K3P+R6          -296566.123  593618.246 -        0  593619.168 -        0  595991.425 -        0
+K3P+R6          -296566.123  593618.246 -        0  593619.168 -        0  595991.425 -        0
+TIM+R6          -296560.892  593609.784 -        0  593610.714 -        0  595992.730 -        0
+TIMe+R6         -296561.042  593610.083 -        0  593611.013 -        0  595993.029 -        0
+TIMe+R6         -296561.042  593610.083 -        0  593611.013 -        0  595993.029 -        0
+TVM+I+R5        -296561.455  593610.910 -        0  593611.840 -        0  595993.856 -        0
+TVMe+I+R5       -296561.538  593611.076 -        0  593612.006 -        0  595994.022 -        0
+TVMe+I+R5       -296561.538  593611.076 -        0  593612.006 -        0  595994.022 -        0
+GTR+I+R5        -296556.567  593603.134 -        0  593604.072 -        0  595995.846 -        0
+TVM+R6          -296556.596  593603.192 -        0  593604.129 -        0  595995.904 -        0
+SYM+I+R5        -296556.640  593603.281 -        0  593604.219 -        0  595995.993 -        0
+SYM+I+R5        -296556.640  593603.281 -        0  593604.219 -        0  595995.993 -        0
+TVMe+R6         -296556.708  593603.415 -        0  593604.353 -        0  595996.127 -        0
+TVMe+R6         -296556.708  593603.415 -        0  593604.353 -        0  595996.127 -        0
+GTR+R6          -296551.582  593595.164 -        0  593596.109 -        0  595997.642 -        0
+SYM+R6          -296551.692  593595.384 -        0  593596.329 -        0  595997.862 -        0
+SYM+R6          -296551.692  593595.384 -        0  593596.329 -        0  595997.862 -        0
+TPM2u+I+R6      -298341.258  597170.517 -        0  597171.447 -        0  599553.463 -        0
+TPM2+I+R6       -298341.387  597170.774 -        0  597171.703 -        0  599553.719 -        0
+TPM2+I+R6       -298341.387  597170.774 -        0  597171.703 -        0  599553.719 -        0
+TIM2+I+R6       -298336.889  597163.779 -        0  597164.717 -        0  599556.491 -        0
+TIM2e+I+R6      -298336.969  597163.938 -        0  597164.875 -        0  599556.650 -        0
+TIM2e+I+R6      -298336.969  597163.938 -        0  597164.875 -        0  599556.650 -        0
+TNe+I+R6        -298373.163  597234.325 -        0  597235.255 -        0  599617.271 -        0
+TNe+I+R6        -298373.163  597234.325 -        0  597235.255 -        0  599617.271 -        0
+TIM2+R6         -298373.192  597234.384 -        0  597235.314 -        0  599617.330 -        0
+TN+I+R6         -298373.214  597234.427 -        0  597235.357 -        0  599617.373 -        0
+TIM2e+R6        -298373.314  597234.628 -        0  597235.557 -        0  599617.573 -        0
+TIM2e+R6        -298373.314  597234.628 -        0  597235.557 -        0  599617.573 -        0
+TPM3u+I+R6      -298374.116  597236.231 -        0  597237.161 -        0  599619.177 -        0
+TPM3+I+R6       -298374.174  597236.348 -        0  597237.277 -        0  599619.293 -        0
+TPM3+I+R6       -298374.174  597236.348 -        0  597237.277 -        0  599619.293 -        0
+TIM3+I+R6       -298369.646  597229.292 -        0  597230.230 -        0  599622.004 -        0
+TIM3e+I+R6      -298369.709  597229.418 -        0  597230.356 -        0  599622.130 -        0
+TIM3e+I+R6      -298369.709  597229.418 -        0  597230.356 -        0  599622.130 -        0
+TPM2u+I+R5      -298388.820  597261.640 -        0  597262.555 -        0  599625.053 -        0
+TPM2+I+R5       -298388.889  597261.779 -        0  597262.694 -        0  599625.192 -        0
+TPM2+I+R5       -298388.889  597261.779 -        0  597262.694 -        0  599625.192 -        0
+TIM2+I+R5       -298383.262  597252.525 -        0  597253.447 -        0  599625.704 -        0
+TIM2e+I+R5      -298383.295  597252.590 -        0  597253.512 -        0  599625.770 -        0
+TIM2e+I+R5      -298383.295  597252.590 -        0  597253.512 -        0  599625.770 -        0
+TPM2u+R6        -298384.339  597254.679 -        0  597255.601 -        0  599627.858 -        0
+TPM2+R6         -298384.411  597254.822 -        0  597255.745 -        0  599628.002 -        0
+TPM2+R6         -298384.411  597254.822 -        0  597255.745 -        0  599628.002 -        0
+HKY+I+R5        -298421.045  597324.090 -        0  597324.997 -        0  599677.737 -        0
+K2P+I+R5        -298421.341  597324.682 -        0  597325.589 -        0  599678.329 -        0
+K2P+I+R5        -298421.341  597324.682 -        0  597325.589 -        0  599678.329 -        0
+TN+I+R5         -298415.912  597315.825 -        0  597316.740 -        0  599679.238 -        0
+HKY+R6          -298416.011  597316.022 -        0  597316.937 -        0  599679.436 -        0
+TNe+I+R5        -298416.051  597316.103 -        0  597317.017 -        0  599679.516 -        0
+TNe+I+R5        -298416.051  597316.103 -        0  597317.017 -        0  599679.516 -        0
+K2P+R6          -298416.108  597316.216 -        0  597317.131 -        0  599679.630 -        0
+K2P+R6          -298416.108  597316.216 -        0  597317.131 -        0  599679.630 -        0
+TN+R6           -298410.971  597307.943 -        0  597308.865 -        0  599681.122 -        0
+TNe+R6          -298411.119  597308.238 -        0  597309.160 -        0  599681.418 -        0
+TNe+R6          -298411.119  597308.238 -        0  597309.160 -        0  599681.418 -        0
+HKY+I+R6        -298413.248  597312.497 -        0  597313.419 -        0  599685.676 -        0
+K2P+I+R6        -298413.336  597312.672 -        0  597313.594 -        0  599685.851 -        0
+K2P+I+R6        -298413.336  597312.672 -        0  597313.594 -        0  599685.851 -        0
+TPM3u+I+R5      -298420.547  597325.095 -        0  597326.009 -        0  599688.508 -        0
+TPM3+I+R5       -298420.620  597325.241 -        0  597326.155 -        0  599688.654 -        0
+TPM3+I+R5       -298420.620  597325.241 -        0  597326.155 -        0  599688.654 -        0
+TIM3+I+R5       -298415.541  597317.081 -        0  597318.003 -        0  599690.261 -        0
+TIM3e+I+R5      -298415.606  597317.212 -        0  597318.135 -        0  599690.392 -        0
+TIM3e+I+R5      -298415.606  597317.212 -        0  597318.135 -        0  599690.392 -        0
+TPM3u+R6        -298415.720  597317.439 -        0  597318.361 -        0  599690.619 -        0
+TPM3+R6         -298415.794  597317.587 -        0  597318.509 -        0  599690.767 -        0
+TPM3+R6         -298415.794  597317.587 -        0  597318.509 -        0  599690.767 -        0
+TIM3+R6         -298410.681  597309.362 -        0  597310.292 -        0  599692.308 -        0
+TIM3e+R6        -298410.772  597309.544 -        0  597310.474 -        0  599692.490 -        0
+TIM3e+R6        -298410.772  597309.544 -        0  597310.474 -        0  599692.490 -        0
+F81+I+R5        -298737.682  597955.364 -        0  597956.263 -        0  600299.245 -        0
+F81+R6          -298732.646  597947.292 -        0  597948.199 -        0  600300.939 -        0
+JC+R6           -298732.752  597947.504 -        0  597948.411 -        0  600301.151 -        0
+JC+R6           -298732.752  597947.504 -        0  597948.411 -        0  600301.151 -        0
+JC+I+R5         -298741.676  597963.353 -        0  597964.252 -        0  600307.234 -        0
+JC+I+R5         -298741.676  597963.353 -        0  597964.252 -        0  600307.234 -        0
+F81+I+R6        -298730.215  597944.430 -        0  597945.344 -        0  600307.843 -        0
+JC+I+R6         -298730.493  597944.985 -        0  597945.900 -        0  600308.399 -        0
+JC+I+R6         -298730.493  597944.985 -        0  597945.900 -        0  600308.399 -        0
+JC+R7           -298729.878  597945.756 -        0  597946.678 -        0  600318.935 -        0
+JC+R5           -298759.928  597997.856 -        0  597998.748 -        0  600331.971 -        0
+JC+R4           -298790.991  598055.983 -        0  598056.860 -        0  600370.565 -        0
+JC+I+R4         -298867.913  598211.827 -        0  598212.712 -        0  600536.176 -        0
+JC+R3           -298897.952  598265.904 -        0  598266.767 -        0  600560.954 -        0
+JC+I+R3         -298898.152  598268.304 -        0  598269.174 -        0  600573.120 -        0
+JC+I+G4         -300404.560  601275.119 -        0  601275.967 -        0  603550.637 -        0
+JC+I            -300981.917  602427.834 -        0  602428.675 -        0  604693.586 -        0
+JC+R2           -300981.277  602428.554 -        0  602429.402 -        0  604704.072 -        0
+JC+I+R2         -300981.607  602431.215 -        0  602432.070 -        0  604716.499 -        0
+JC+G4           -301609.799  603683.598 -        0  603684.439 -        0  605949.350 -        0
+JC              -306161.265  612784.529 -        0  612785.363 -        0  615040.515 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+I+R6
+
+Rate parameter R:
+
+  A-C: 0.8883
+  A-G: 0.8732
+  A-T: 0.1205
+  C-G: 0.2895
+  C-T: 0.8732
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3108
+  pi(C) = 0.1862
+  pi(G) = 0.1829
+  pi(T) = 0.3201
+
+Rate matrix Q:
+
+  A   -0.7788    0.3541    0.3421   0.08261
+  C    0.5912    -1.303    0.1134    0.5986
+  G    0.5812    0.1154    -1.382    0.6855
+  T   0.08022    0.3481    0.3917   -0.8201
+
+Model of rate heterogeneity: Invar+FreeRate with 6 categories
+Proportion of invariable sites: 0.5725
+Site proportion and rates:  (0.1395,1.448) (0.1374,1.449) (0.1276,1.462) (0.02119,13.19) (0.001641,62.78) (0.0001149,259.9)
+
+ Category  Relative_rate  Proportion
+  0         0              0.5725
+  1         1.448          0.1395
+  2         1.449          0.1374
+  3         1.462          0.1276
+  4         13.19          0.02119
+  5         62.78          0.001641
+  6         259.9          0.0001149
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -291493.7794 (s.e. 1251.1541)
+Unconstrained log-likelihood (without tree): -322116.5947
+Number of free parameters (#branches + #model parameters): 249
+Akaike information criterion (AIC) score: 583485.5587
+Corrected Akaike information criterion (AICc) score: 583486.5271
+Bayesian information criterion (BIC) score: 585917.3354
+
+Total tree length (sum of branch lengths): 0.1142
+Sum of internal branch lengths: 0.0457 (39.9930% of tree length)
+
+WARNING: 14 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'S._albicans_PI_365308_extraction' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++--S._albicans_PI_365308_extraction
+|
+|     +--S._acaule_MK036506.1_extraction
+|  +--| (100)
+|  |  +--S._x-aemulans_PI_472793_extraction
++--| (91)
+|  +--S._boliviense_CORD
+|
+|           +--S._acroscopicum_4x_PI_230495_extraction
+|        +**| (52)
+|        |  +--S._candolleanum_BM
+|     +--| (100)
+|     |  |  +--S._medians_PI_458402_MH021515.1_extraction
+|     |  +**| (47)
+|     |     +--S._dolichocremastrum_CIP_762998_ON509800.1_extraction
+|  +--| (56)
+|  |  |  +--S._lignicaule_CIP_761652_ON509754.1_extraction
+|  |  +--| (80)
+|  |     +--S._raphanifolium_CIP_762358_ON509781.1_extraction
++--| (100)
+   |              +--S._x-doddsii_PI_545860_extraction
+   |           +--| (100)
+   |           |  +--S._brevicaule_4x_PI_546008_extraction
+   |        +--| (100)
+   |        |  +--S._infundibuliforme_PI_458324_ON509830.1_extraction
+   |     +**| (43)
+   |     |  |                             +--S._guerreroense_PI_653828_extraction
+   |     |  |                          +--| (100)
+   |     |  |                          |  +--S._demissum_MK036508.1_extraction
+   |     |  |                       +**| (76)
+   |     |  |                       |  +--S._iopetalum_SI-1_MZ233587.1_extraction
+   |     |  |                    +--| (89)
+   |     |  |                    |  +--S._verrucosum_PI_498061_MH021586.1_extraction
+   |     |  |                 +**| (27)
+   |     |  |                 |  +--S._hougasii_SH2-10_MF471372.1_extraction
+   |     |  |              +**| (37)
+   |     |  |              |  +--S._schenckii_PI_498040_extraction
+   |     |  |           +--| (100)
+   |     |  |           |  |     +**S_stoloniferum_2x_PI_558394.1_extraction
+   |     |  |           |  |  +--| (100)
+   |     |  |           |  |  |  +**S._stoloniferum_4x_PI_558394.2_extraction
+   |     |  |           |  +--| (100)
+   |     |  |           |     +**S._hjertingii_MK690623.1_extraction
+   |     |  |        +--| (95)
+   |     |  |        |  +--S._gandarillasii_OM638072.1_extraction
+   |     |  |     +**| (36)
+   |     |  |     |  +--S._neocardenasii_CIP_764035_ON509816.1_extraction
+   |     |  |  +**| (17)
+   |     |  |  |  |        +--S._chacoense_PI_472816_MH021457.1_extraction
+   |     |  |  |  |     +--| (58)
+   |     |  |  |  |     |  +--S._microdontum_PI_458355_ON509831.1_extraction
+   |     |  |  |  |  +--| (100)
+   |     |  |  |  |  |  |  +--S._vernei_PI_473303_MH021583.1_extraction
+   |     |  |  |  |  |  +**| (39)
+   |     |  |  |  |  |     |  +--S._okadae_PI_458368_ON509833.1_extraction
+   |     |  |  |  |  |     +--| (99)
+   |     |  |  |  |  |        +--S._venturii_PI_320327_MH021484.1_extraction
+   |     |  |  |  +--| (80)
+   |     |  |  |     +--S._kurtzianum_PI_472948_MH021496.1_extraction
+   |     |  +--| (100)
+   |     |     |                 +--S._berthaultii_PI_545850_MH021418.1_extraction
+   |     |     |              +--| (76)
+   |     |     |              |  +------S._brevicaule_2x_PI_597742_extraction
+   |     |     |           +--| (70)
+   |     |     |           |  +--S._laxissimum_PI_283088_MH021500.1_extraction
+   |     |     |        +--| (100)
+   |     |     |        |  +--S._neorossii_CIP_764170_ON509818.1_extraction
+   |     |     |     +**| (40)
+   |     |     |     |  +--S._stipuloideum_CIP_761030_ON509737.1_extraction
+   |     |     |  +--| (67)
+   |     |     |  |  +--S._violaceimarmoratum_PI_473396_MH021594.1_extraction
+   |     |     +**| (35)
+   |     |        +--S._commersonii_Lz3.2_KM489054_extraction
+   |  +--| (95)
+   |  |  |                             +--S._colombianum_PI_567834_extraction
+   |  |  |                          +--| (100)
+   |  |  |                          |  +--S._andreanum_4x_PI_561645_extraction
+   |  |  |                       +--| (46)
+   |  |  |                       |  +--S._andreanum_2x_PI_561662_extraction
+   |  |  |                    +--| (52)
+   |  |  |                    |  +--S._piurae_CIP_761072_ON509741.1_extraction
+   |  |  |                 +--| (100)
+   |  |  |                 |  +--S._paucissectum_PI_473489_MH021536.1_extraction
+   |  |  |              +**| (63)
+   |  |  |              |  +--S._mochiquense_CIP_762989_ON509799.1_extraction
+   |  |  |           +--| (100)
+   |  |  |           |  +--S._x_blanco-galdosii_PI_498214_MH021419.1_extraction
+   |  |  |        +--| (100)
+   |  |  |        |  |  +--S._multiinterruptum_PI_365338_MH021527.1_extraction
+   |  |  |        |  +--| (89)
+   |  |  |        |     +--S._acroscopicum_2x_PI_365314_MH021400.1_extraction
+   |  |  |     +--| (100)
+   |  |  |     |  |  +--S._immite_PI_498245_extraction
+   |  |  |     |  +--| (98)
+   |  |  |     |     |  +--S._huancabambense_CIP_760955_ON509735.1_extraction
+   |  |  |     |     +--| (100)
+   |  |  |     |        +----S._chomatophilum_PI_365339_MH021461.1_extraction
+   |  |  |  +--| (100)
+   |  |  |  |  +----------S._albornozii_PI_498206_MH021402.1_extraction
+   |  |  +--| (100)
+   |  |     |        +--S._bulbocastanum_PI_604074_MH021439.1_extraction
+   |  |     |     +--| (100)
+   |  |     |     |  +-----S._cardiophyllum_PI_347759_MH021454.1_extraction
+   |  |     |  +--| (100)
+   |  |     |  |  |       +--S._ehrenbergii_ON509828.1_PI_275216_extraction
+   |  |     |  |  |    +--| (100)
+   |  |     |  |  |    |  |  +--S._stenophyllidium_PI_558460_MH021421.1_extraction
+   |  |     |  |  |    |  +**| (70)
+   |  |     |  |  |    |     |     +--S._jamesii_PI_641944_MH021492.1_extraction
+   |  |     |  |  |    |     |  +--| (58)
+   |  |     |  |  |    |     |  |  +--S._pinnatisectum_PI_253214_MH021546.1_extraction
+   |  |     |  |  |    |     +--| (56)
+   |  |     |  |  |    |        |  +--S._tarnii_CIP_764285_ON509823.1_extraction
+   |  |     |  |  |    |        +--| (100)
+   |  |     |  |  |    |           +--S._trifidum_CIP_764145_ON509818.1_extraction
+   |  |     |  |  +----| (100)
+   |  |     |  |       |     +--S._lesteri_CIP_764266_ON509821.1_extraction
+   |  |     |  |       |  +--| (100)
+   |  |     |  |       |  |  +--S._polyadenium_PI_161728_MH021548.1_extraction
+   |  |     |  |       +--| (99)
+   |  |     |  |          |   +----S._clarum_PI_275202_extraction
+   |  |     |  |          +---| (100)
+   |  |     |  |              +----S._morelliforme_CIP_764271_ON509822.1_extraction
+   |  |     +--| (100)
+   |  |        |                +--S._etuberosum_E
+   |  |        |     +----------| (100)
+   |  |        |     |          +--S._palustre_PI_245763_MH021531.1_extraction
+   |  |        |  +--| (100)
+   |  |        |  |  |        +----------------S._taeniotrichum_MO
+   |  |        |  |  |     +--| (100)
+   |  |        |  |  |     |  |                 +--S._trachycarpum_A44750223_extraction
+   |  |        |  |  |     |  |              +--| (70)
+   |  |        |  |  |     |  |              |  +--S._basendopogon_904750165_extraction
+   |  |        |  |  |     |  +--------------| (100)
+   |  |        |  |  |     |                 |     +--S._caripense_35_extraction
+   |  |        |  |  |     |                 |  +--| (100)
+   |  |        |  |  |     |                 |  |  |  +**S._basendopogon_E
+   |  |        |  |  |     |                 |  |  +--| (100)
+   |  |        |  |  |     |                 |  |     +**S._tabanoense_E
+   |  |        |  |  |     |                 +--| (80)
+   |  |        |  |  |     |                    |  +--S._suaveolens_E
+   |  |        |  |  |     |                    +--| (100)
+   |  |        |  |  |     |                       +--S._suaveolens_834750004_extraction
+   |  |        |  |  +-----| (100)
+   |  |        |  |        |                    +--------S._limoncochaense_LB2391_extraction
+   |  |        |  |        |                 +--| (100)
+   |  |        |  |        |                 |  |        +--S._phaseoloides_MO
+   |  |        |  |        |                 |  |  +-----| (100)
+   |  |        |  |        |                 |  |  |     +--S._phaseoloides_LB693_extraction
+   |  |        |  |        |                 |  +--| (100)
+   |  |        |  |        |                 |     |     +**S._pentaphyllum_MO
+   |  |        |  |        |                 |     +-----| (100)
+   |  |        |  |        |                 |           +**S._pentaphyllum_LB2515_extraction
+   |  |        |  |        |              +--| (85)
+   |  |        |  |        |              |  |          +--S._loxophyllum_MO
+   |  |        |  |        |              |  |      +---| (100)
+   |  |        |  |        |              |  |      |   |  +--S._crassinervium_LB2397_extraction
+   |  |        |  |        |              |  |      |   +--| (100)
+   |  |        |  |        |              |  |      |      |  +--S._evolvulifolium_LB709_extraction
+   |  |        |  |        |              |  |      |      +--| (100)
+   |  |        |  |        |              |  |      |         +--S._evolvulifolium_LB2520_extraction
+   |  |        |  |        |              |  |   +--| (100)
+   |  |        |  |        |              |  |   |  |   +--S._pacificum_MO
+   |  |        |  |        |              |  |   |  +---| (100)
+   |  |        |  |        |              |  |   |      +--S._pacificum_LB2370_extraction
+   |  |        |  |        |              |  +---| (100)
+   |  |        |  |        |              |      +---S._dalibardiforme_LB2454_extraction
+   |  |        |  |        |     +--------| (100)
+   |  |        |  |        |     |        |                 +--S._trizygum_MO
+   |  |        |  |        |     |        |              +--| (100)
+   |  |        |  |        |     |        |              |  +--S._trizygum_LB2335_extraction
+   |  |        |  |        |     |        |           +--| (100)
+   |  |        |  |        |     |        |           |  |  +--S._ternatum_E
+   |  |        |  |        |     |        |           |  +--| (100)
+   |  |        |  |        |     |        |           |     +--S._savanillense_LB1381_extraction
+   |  |        |  |        |     |        |        +--| (100)
+   |  |        |  |        |     |        |        |  +-----------S._incurvum_MO
+   |  |        |  |        |     |        |     +--| (88)
+   |  |        |  |        |     |        |     |  |            +--S._conicum_E
+   |  |        |  |        |     |        |     |  |         +--| (100)
+   |  |        |  |        |     |        |     |  |         |  +--S._anceps_LB2282_extraction
+   |  |        |  |        |     |        |     |  |      +--| (53)
+   |  |        |  |        |     |        |     |  |      |  +----S._chamaepolybotryon_E
+   |  |        |  |        |     |        |     |  +------| (100)
+   |  |        |  |        |     |        |     |         |  +--S._anceps_E
+   |  |        |  |        |     |        |     |         +--| (55)
+   |  |        |  |        |     |        |     |            +--S._anceps_LB654_extraction
+   |  |        |  |        |     |        |  +--| (100)
+   |  |        |  |        |     |        |  |  +---------S._mite_LB832_extraction
+   |  |        |  |        |     |        +--| (100)
+   |  |        |  |        |     |           +----------S._trifolium_LB2368_extraction
+   |  |        |  |        |  +--| (100)
+   |  |        |  |        |  |  |  +------------------------S._oxycoccoides_E
+   |  |        |  |        |  |  +--| (100)
+   |  |        |  |        |  |     |                    +--S._brachyantherum_MO
+   |  |        |  |        |  |     |             +------| (100)
+   |  |        |  |        |  |     |             |      +---S._trinominum_MO
+   |  |        |  |        |  |     |    +--------| (100)
+   |  |        |  |        |  |     |    |        +-----------S._multifidum_MO
+   |  |        |  |        |  |     +----| (100)
+   |  |        |  |        |  |          +--------------------------------S._dulcamara_KY863443.1_extraction
+   |  |        |  |        +--| (100)
+   |  |        |  |           |                +-----S._skutchii_MO
+   |  |        |  |           |             +--| (100)
+   |  |        |  |           |             |  +--S._appendiculatum_MO
+   |  |        |  |           +-------------| (100)
+   |  |        |  |                         |     +--S._complectens_MO
+   |  |        |  |                         |  +--| (100)
+   |  |        |  |                         |  |  +--S._chimborazense_MO
+   |  |        |  |                         +--| (100)
+   |  |        |  |                            +---S._sodiroi_LB1047_extraction
+   |  |        +--| (100)
+   |  |           |                        +--S._arcanum_MN990080.1_extraction
+   |  |           |                     +--| (89)
+   |  |           |                     |  +--S._neorickii_TS-146_KP117025.1_extraction
+   |  |           |                  +--| (100)
+   |  |           |                  |  |     +**S_chilense_TS-408_KP117021.1_extraction
+   |  |           |                  |  |  +--| (100)
+   |  |           |                  |  |  |  +--S._peruvianum_TS-404_KP117026.1_extraction
+   |  |           |                  |  +--| (100)
+   |  |           |                  |     +--S._corneliomuelleri_MN990082.1_extraction
+   |  |           |               +--| (100)
+   |  |           |               |  +--S._pennellii_KY887589.1_extraction
+   |  |           +---------------| (100)
+   |  |                           |  +--S._habrochaites_TS-407_NC_026879.1_extraction
+   |  |                           +--| (100)
+   |  |                              +--S._pimpinellifolium_TS-415_KP117027.1_extraction
+   +**| (32)
+      |     +--S._flahaultii_PI_498164_extraction
+      |  +--| (66)
+      |  |  +--S._oxycarpum_PI_607853_extraction
+      +--| (100)
+         +---S._longiconicum_PI_604093_extraction
+
+Tree in newick format:
+
+(S._albicans_PI_365308_extraction:0.0002662527,((S._acaule_MK036506.1_extraction:0.0000694165,S._x-aemulans_PI_472793_extraction:0.0001624227)100:0.0001708567,S._boliviense_CORD:0.0002123916)91:0.0000140015,((((S._acroscopicum_4x_PI_230495_extraction:0.0001865368,S._candolleanum_BM:0.0001482539)52:0.0000074588,(S._medians_PI_458402_MH021515.1_extraction:0.0001542445,S._dolichocremastrum_CIP_762998_ON509800.1_extraction:0.0004134154)47:0.0000076848)100:0.0003397423,(S._lignicaule_CIP_761652_ON509754.1_extraction:0.0002407489,S._raphanifolium_CIP_762358_ON509781.1_extraction:0.0004480042)80:0.0000537696)56:0.0000392401,(((((S._x-doddsii_PI_545860_extraction:0.0000227030,S._brevicaule_4x_PI_546008_extraction:0.0000227399)100:0.0001459666,S._infundibuliforme_PI_458324_ON509830.1_extraction:0.0001150453)100:0.0004335425,((((((((((S._guerreroense_PI_653828_extraction:0.0000307377,S._demissum_MK036508.1_extraction:0.0000383893)100:0.0000533236,S._iopetalum_SI-1_MZ233587.1_extraction:0.0000766670)76:0.0000004828,S._verrucosum_PI_498061_MH021586.1_extraction:0.0000306306)89:0.0000151812,S._hougasii_SH2-10_MF471372.1_extraction:0.0000533058)27:0.0000004828,S._schenckii_PI_498040_extraction:0.0000226938)37:0.0000010259,((S_stoloniferum_2x_PI_558394.1_extraction:0.0000004828,S._stoloniferum_4x_PI_558394.2_extraction:0.0000004828)100:0.0000226884,S._hjertingii_MK690623.1_extraction:0.0000004828)100:0.0000691066)100:0.0002845463,S._gandarillasii_OM638072.1_extraction:0.0003123159)95:0.0000380390,S._neocardenasii_CIP_764035_ON509816.1_extraction:0.0001613670)36:0.0000010259,(((S._chacoense_PI_472816_MH021457.1_extraction:0.0001856502,S._microdontum_PI_458355_ON509831.1_extraction:0.0001858361)58:0.0000279512,(S._vernei_PI_473303_MH021583.1_extraction:0.0001208018,(S._okadae_PI_458368_ON509833.1_extraction:0.0003467819,S._venturii_PI_320327_MH021484.1_extraction:0.0003394429)99:0.0000346711)39:0.0000072765)100:0.0000631030,S._kurtzianum_PI_472948_MH021496.1_extraction:0.0002002657)80:0.0000152847)17:0.0000004828,((((((S._berthaultii_PI_545850_MH021418.1_extraction:0.0001243160,S._brevicaule_2x_PI_597742_extraction:0.0016195144)76:0.0000210208,S._laxissimum_PI_283088_MH021500.1_extraction:0.0003193075)70:0.0000146318,S._neorossii_CIP_764170_ON509818.1_extraction:0.0001311106)100:0.0000921067,S._stipuloideum_CIP_761030_ON509737.1_extraction:0.0003385507)40:0.0000077503,S._violaceimarmoratum_PI_473396_MH021594.1_extraction:0.0004455869)67:0.0000159693,S._commersonii_Lz3.2_KM489054_extraction:0.0003694535)35:0.0000004828)100:0.0002939211)43:0.0000010712,((((((((((S._colombianum_PI_567834_extraction:0.0001006741,S._andreanum_4x_PI_561645_extraction:0.0001706356)100:0.0003350307,S._andreanum_2x_PI_561662_extraction:0.0007867164)46:0.0000464766,S._piurae_CIP_761072_ON509741.1_extraction:0.0003969314)52:0.0000137119,S._paucissectum_PI_473489_MH021536.1_extraction:0.0004925310)100:0.0002669531,S._mochiquense_CIP_762989_ON509799.1_extraction:0.0004341100)63:0.0000048587,S._x_blanco-galdosii_PI_498214_MH021419.1_extraction:0.0003025181)100:0.0000553455,(S._multiinterruptum_PI_365338_MH021527.1_extraction:0.0008065094,S._acroscopicum_2x_PI_365314_MH021400.1_extraction:0.0005740585)89:0.0000143383)100:0.0000854347,(S._immite_PI_498245_extraction:0.0003573143,(S._huancabambense_CIP_760955_ON509735.1_extraction:0.0003973228,S._chomatophilum_PI_365339_MH021461.1_extraction:0.0012210429)100:0.0001141587)98:0.0000229760)100:0.0002854042,S._albornozii_PI_498206_MH021402.1_extraction:0.0024231065)100:0.0000997701,(((S._bulbocastanum_PI_604074_MH021439.1_extraction:0.0008191324,S._cardiophyllum_PI_347759_MH021454.1_extraction:0.0013860198)100:0.0001540661,((S._ehrenbergii_ON509828.1_PI_275216_extraction:0.0000607809,(S._stenophyllidium_PI_558460_MH021421.1_extraction:0.0001552898,((S._jamesii_PI_641944_MH021492.1_extraction:0.0001795674,S._pinnatisectum_PI_253214_MH021546.1_extraction:0.0003233829)58:0.0000129933,(S._tarnii_CIP_764285_ON509823.1_extraction:0.0000778454,S._trifidum_CIP_764145_ON509818.1_extraction:0.0001757142)100:0.0001303474)56:0.0000085064)70:0.0000073271)100:0.0001699640,((S._lesteri_CIP_764266_ON509821.1_extraction:0.0003438736,S._polyadenium_PI_161728_MH021548.1_extraction:0.0003490375)100:0.0005675229,(S._clarum_PI_275202_extraction:0.0011468825,S._morelliforme_CIP_764271_ON509822.1_extraction:0.0012395925)100:0.0009931197)99:0.0000531375)100:0.0012404262)100:0.0001548282,(((S._etuberosum_E:0.0001547868,S._palustre_PI_245763_MH021531.1_extraction:0.0001052504)100:0.0023891264,((S._taeniotrichum_MO:0.0036705740,((S._trachycarpum_A44750223_extraction:0.0005827431,S._basendopogon_904750165_extraction:0.0004768818)70:0.0000167526,((S._caripense_35_extraction:0.0001621344,(S._basendopogon_E:0.0000004828,S._tabanoense_E:0.0000004828)100:0.0001784600)100:0.0001656814,(S._suaveolens_E:0.0000400472,S._suaveolens_834750004_extraction:0.0000606514)100:0.0003449902)80:0.0000338991)100:0.0033137911)100:0.0006538607,(((((S._limoncochaense_LB2391_extraction:0.0020181032,((S._phaseoloides_MO:0.0001889446,S._phaseoloides_LB693_extraction:0.0003517814)100:0.0013395159,(S._pentaphyllum_MO:0.0000004828,S._pentaphyllum_LB2515_extraction:0.0000004828)100:0.0013791447)100:0.0003371978)100:0.0005802686,(((S._loxophyllum_MO:0.0003561034,(S._crassinervium_LB2397_extraction:0.0002516290,(S._evolvulifolium_LB709_extraction:0.0000686030,S._evolvulifolium_LB2520_extraction:0.0000383076)100:0.0002566887)100:0.0001569158)100:0.0009018416,(S._pacificum_MO:0.0000526046,S._pacificum_LB2370_extraction:0.0000387759)100:0.0009332001)100:0.0005781842,S._dalibardiforme_LB2454_extraction:0.0009321740)100:0.0009787598)85:0.0000780055,((((((S._trizygum_MO:0.0000734584,S._trizygum_LB2335_extraction:0.0000817343)100:0.0006485324,(S._ternatum_E:0.0006018209,S._savanillense_LB1381_extraction:0.0003224290)100:0.0004598486)100:0.0001855144,S._incurvum_MO:0.0026698751)100:0.0004608602,(((S._conicum_E:0.0003528725,S._anceps_LB2282_extraction:0.0002129782)100:0.0003778488,S._chamaepolybotryon_E:0.0012614157)53:0.0000145991,(S._anceps_E:0.0001499218,S._anceps_LB654_extraction:0.0004539725)55:0.0000127107)100:0.0016277066)88:0.0000762782,S._mite_LB832_extraction:0.0022126469)100:0.0007478374,S._trifolium_LB2368_extraction:0.0025178354)100:0.0006540421)100:0.0019692102,(S._oxycoccoides_E:0.0054006156,(((S._brachyantherum_MO:0.0006204803,S._trinominum_MO:0.0009103928)100:0.0016126678,S._multifidum_MO:0.0027283356)100:0.0020707985,S._dulcamara_KY863443.1_extraction:0.0071687350)100:0.0010961221)100:0.0003819988)100:0.0005669477,((S._skutchii_MO:0.0013176935,S._appendiculatum_MO:0.0003451414)100:0.0002649060,((S._complectens_MO:0.0007322870,S._chimborazense_MO:0.0006353166)100:0.0001136689,S._sodiroi_LB1047_extraction:0.0010520344)100:0.0001992967)100:0.0031118838)100:0.0004788839)100:0.0013773400)100:0.0001913394,((((S._arcanum_MN990080.1_extraction:0.0001654906,S._neorickii_TS-146_KP117025.1_extraction:0.0000440793)89:0.0000816670,((S_chilense_TS-408_KP117021.1_extraction:0.0000072921,S._peruvianum_TS-404_KP117026.1_extraction:0.0000850031)100:0.0001161123,S._corneliomuelleri_MN990082.1_extraction:0.0002322279)100:0.0001800149)100:0.0001968796,S._pennellii_KY887589.1_extraction:0.0003708757)100:0.0001203621,(S._habrochaites_TS-407_NC_026879.1_extraction:0.0002507852,S._pimpinellifolium_TS-415_KP117027.1_extraction:0.0002146589)100:0.0005452351)100:0.0034624461)100:0.0005440325)100:0.0003120936)100:0.0002814089)95:0.0000432336,((S._flahaultii_PI_498164_extraction:0.0004151300,S._oxycarpum_PI_607853_extraction:0.0002848575)66:0.0000345285,S._longiconicum_PI_604093_extraction:0.0008944846)100:0.0006087954)32:0.0000070871)100:0.0002895231);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -291497.15867438
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--S._albicans_PI_365308_extraction
+|
+|     +--S._acaule_MK036506.1_extraction
+|  +--| (100)
+|  |  +--S._x-aemulans_PI_472793_extraction
++--| (91)
+|  +--S._boliviense_CORD
+|
+|           +--S._acroscopicum_4x_PI_230495_extraction
+|        +--| (52)
+|        |  +--S._candolleanum_BM
+|     +--| (100)
+|     |  |  +--S._medians_PI_458402_MH021515.1_extraction
+|     |  +--| (47)
+|     |     +--S._dolichocremastrum_CIP_762998_ON509800.1_extraction
+|  +--| (56)
+|  |  |  +--S._lignicaule_CIP_761652_ON509754.1_extraction
+|  |  +--| (80)
+|  |     +--S._raphanifolium_CIP_762358_ON509781.1_extraction
++--| (100)
+   |              +--S._x-doddsii_PI_545860_extraction
+   |           +--| (100)
+   |           |  +--S._brevicaule_4x_PI_546008_extraction
+   |        +--| (100)
+   |        |  +--S._infundibuliforme_PI_458324_ON509830.1_extraction
+   |     +**| (43)
+   |     |  |                             +--S._guerreroense_PI_653828_extraction
+   |     |  |                          +--| (100)
+   |     |  |                          |  +--S._demissum_MK036508.1_extraction
+   |     |  |                       +**| (76)
+   |     |  |                       |  +--S._iopetalum_SI-1_MZ233587.1_extraction
+   |     |  |                    +--| (89)
+   |     |  |                    |  +--S._verrucosum_PI_498061_MH021586.1_extraction
+   |     |  |                 +**| (27)
+   |     |  |                 |  +--S._hougasii_SH2-10_MF471372.1_extraction
+   |     |  |              +**| (37)
+   |     |  |              |  +--S._schenckii_PI_498040_extraction
+   |     |  |           +--| (100)
+   |     |  |           |  |     +**S_stoloniferum_2x_PI_558394.1_extraction
+   |     |  |           |  |  +--| (100)
+   |     |  |           |  |  |  +**S._stoloniferum_4x_PI_558394.2_extraction
+   |     |  |           |  +--| (100)
+   |     |  |           |     +**S._hjertingii_MK690623.1_extraction
+   |     |  |        +--| (95)
+   |     |  |        |  +--S._gandarillasii_OM638072.1_extraction
+   |     |  |     +**| (36)
+   |     |  |     |  +--S._neocardenasii_CIP_764035_ON509816.1_extraction
+   |     |  |  +**| (17)
+   |     |  |  |  |           +--S._chacoense_PI_472816_MH021457.1_extraction
+   |     |  |  |  |        +--| (58)
+   |     |  |  |  |        |  +--S._microdontum_PI_458355_ON509831.1_extraction
+   |     |  |  |  |     +--| (50)
+   |     |  |  |  |     |  +--S._vernei_PI_473303_MH021583.1_extraction
+   |     |  |  |  |  +--| (100)
+   |     |  |  |  |  |  |  +--S._okadae_PI_458368_ON509833.1_extraction
+   |     |  |  |  |  |  +--| (99)
+   |     |  |  |  |  |     +--S._venturii_PI_320327_MH021484.1_extraction
+   |     |  |  |  +--| (80)
+   |     |  |  |     +--S._kurtzianum_PI_472948_MH021496.1_extraction
+   |     |  +--| (100)
+   |     |     |                 +--S._berthaultii_PI_545850_MH021418.1_extraction
+   |     |     |              +--| (76)
+   |     |     |              |  +------S._brevicaule_2x_PI_597742_extraction
+   |     |     |           +--| (70)
+   |     |     |           |  +--S._laxissimum_PI_283088_MH021500.1_extraction
+   |     |     |        +--| (100)
+   |     |     |        |  +--S._neorossii_CIP_764170_ON509818.1_extraction
+   |     |     |     +--| (40)
+   |     |     |     |  +--S._stipuloideum_CIP_761030_ON509737.1_extraction
+   |     |     |  +--| (67)
+   |     |     |  |  +--S._violaceimarmoratum_PI_473396_MH021594.1_extraction
+   |     |     +**| (35)
+   |     |        +--S._commersonii_Lz3.2_KM489054_extraction
+   |  +--| (95)
+   |  |  |                             +--S._colombianum_PI_567834_extraction
+   |  |  |                          +--| (100)
+   |  |  |                          |  +--S._andreanum_4x_PI_561645_extraction
+   |  |  |                       +--| (46)
+   |  |  |                       |  +--S._andreanum_2x_PI_561662_extraction
+   |  |  |                    +--| (52)
+   |  |  |                    |  +--S._piurae_CIP_761072_ON509741.1_extraction
+   |  |  |                 +--| (100)
+   |  |  |                 |  +--S._paucissectum_PI_473489_MH021536.1_extraction
+   |  |  |              +--| (63)
+   |  |  |              |  +--S._mochiquense_CIP_762989_ON509799.1_extraction
+   |  |  |           +--| (100)
+   |  |  |           |  +--S._x_blanco-galdosii_PI_498214_MH021419.1_extraction
+   |  |  |        +--| (100)
+   |  |  |        |  |  +--S._multiinterruptum_PI_365338_MH021527.1_extraction
+   |  |  |        |  +--| (89)
+   |  |  |        |     +--S._acroscopicum_2x_PI_365314_MH021400.1_extraction
+   |  |  |     +--| (100)
+   |  |  |     |  |  +--S._immite_PI_498245_extraction
+   |  |  |     |  +--| (98)
+   |  |  |     |     |  +--S._huancabambense_CIP_760955_ON509735.1_extraction
+   |  |  |     |     +--| (100)
+   |  |  |     |        +----S._chomatophilum_PI_365339_MH021461.1_extraction
+   |  |  |  +--| (100)
+   |  |  |  |  +----------S._albornozii_PI_498206_MH021402.1_extraction
+   |  |  +--| (100)
+   |  |     |        +--S._bulbocastanum_PI_604074_MH021439.1_extraction
+   |  |     |     +--| (100)
+   |  |     |     |  +-----S._cardiophyllum_PI_347759_MH021454.1_extraction
+   |  |     |  +--| (100)
+   |  |     |  |  |       +--S._ehrenbergii_ON509828.1_PI_275216_extraction
+   |  |     |  |  |    +--| (100)
+   |  |     |  |  |    |  |  +--S._stenophyllidium_PI_558460_MH021421.1_extraction
+   |  |     |  |  |    |  +--| (70)
+   |  |     |  |  |    |     |     +--S._jamesii_PI_641944_MH021492.1_extraction
+   |  |     |  |  |    |     |  +--| (58)
+   |  |     |  |  |    |     |  |  +--S._pinnatisectum_PI_253214_MH021546.1_extraction
+   |  |     |  |  |    |     +--| (56)
+   |  |     |  |  |    |        |  +--S._tarnii_CIP_764285_ON509823.1_extraction
+   |  |     |  |  |    |        +--| (100)
+   |  |     |  |  |    |           +--S._trifidum_CIP_764145_ON509818.1_extraction
+   |  |     |  |  +----| (100)
+   |  |     |  |       |     +--S._lesteri_CIP_764266_ON509821.1_extraction
+   |  |     |  |       |  +--| (100)
+   |  |     |  |       |  |  +--S._polyadenium_PI_161728_MH021548.1_extraction
+   |  |     |  |       +--| (99)
+   |  |     |  |          |   +----S._clarum_PI_275202_extraction
+   |  |     |  |          +---| (100)
+   |  |     |  |              +----S._morelliforme_CIP_764271_ON509822.1_extraction
+   |  |     +--| (100)
+   |  |        |                +--S._etuberosum_E
+   |  |        |     +----------| (100)
+   |  |        |     |          +--S._palustre_PI_245763_MH021531.1_extraction
+   |  |        |  +--| (100)
+   |  |        |  |  |        +----------------S._taeniotrichum_MO
+   |  |        |  |  |     +--| (100)
+   |  |        |  |  |     |  |                 +--S._trachycarpum_A44750223_extraction
+   |  |        |  |  |     |  |              +--| (70)
+   |  |        |  |  |     |  |              |  +--S._basendopogon_904750165_extraction
+   |  |        |  |  |     |  +--------------| (100)
+   |  |        |  |  |     |                 |     +--S._caripense_35_extraction
+   |  |        |  |  |     |                 |  +--| (100)
+   |  |        |  |  |     |                 |  |  |  +**S._basendopogon_E
+   |  |        |  |  |     |                 |  |  +--| (100)
+   |  |        |  |  |     |                 |  |     +**S._tabanoense_E
+   |  |        |  |  |     |                 +--| (80)
+   |  |        |  |  |     |                    |  +--S._suaveolens_E
+   |  |        |  |  |     |                    +--| (100)
+   |  |        |  |  |     |                       +--S._suaveolens_834750004_extraction
+   |  |        |  |  +-----| (100)
+   |  |        |  |        |                    +--------S._limoncochaense_LB2391_extraction
+   |  |        |  |        |                 +--| (100)
+   |  |        |  |        |                 |  |        +--S._phaseoloides_MO
+   |  |        |  |        |                 |  |  +-----| (100)
+   |  |        |  |        |                 |  |  |     +--S._phaseoloides_LB693_extraction
+   |  |        |  |        |                 |  +--| (100)
+   |  |        |  |        |                 |     |     +**S._pentaphyllum_MO
+   |  |        |  |        |                 |     +-----| (100)
+   |  |        |  |        |                 |           +**S._pentaphyllum_LB2515_extraction
+   |  |        |  |        |              +--| (85)
+   |  |        |  |        |              |  |          +--S._loxophyllum_MO
+   |  |        |  |        |              |  |      +---| (100)
+   |  |        |  |        |              |  |      |   |  +--S._crassinervium_LB2397_extraction
+   |  |        |  |        |              |  |      |   +--| (100)
+   |  |        |  |        |              |  |      |      |  +--S._evolvulifolium_LB709_extraction
+   |  |        |  |        |              |  |      |      +--| (100)
+   |  |        |  |        |              |  |      |         +--S._evolvulifolium_LB2520_extraction
+   |  |        |  |        |              |  |   +--| (100)
+   |  |        |  |        |              |  |   |  |   +--S._pacificum_MO
+   |  |        |  |        |              |  |   |  +---| (100)
+   |  |        |  |        |              |  |   |      +--S._pacificum_LB2370_extraction
+   |  |        |  |        |              |  +---| (100)
+   |  |        |  |        |              |      +---S._dalibardiforme_LB2454_extraction
+   |  |        |  |        |     +--------| (100)
+   |  |        |  |        |     |        |                 +--S._trizygum_MO
+   |  |        |  |        |     |        |              +--| (100)
+   |  |        |  |        |     |        |              |  +--S._trizygum_LB2335_extraction
+   |  |        |  |        |     |        |           +--| (100)
+   |  |        |  |        |     |        |           |  |  +--S._ternatum_E
+   |  |        |  |        |     |        |           |  +--| (100)
+   |  |        |  |        |     |        |           |     +--S._savanillense_LB1381_extraction
+   |  |        |  |        |     |        |        +--| (100)
+   |  |        |  |        |     |        |        |  +-----------S._incurvum_MO
+   |  |        |  |        |     |        |     +--| (88)
+   |  |        |  |        |     |        |     |  |            +--S._conicum_E
+   |  |        |  |        |     |        |     |  |         +--| (100)
+   |  |        |  |        |     |        |     |  |         |  +--S._anceps_LB2282_extraction
+   |  |        |  |        |     |        |     |  |      +--| (53)
+   |  |        |  |        |     |        |     |  |      |  +----S._chamaepolybotryon_E
+   |  |        |  |        |     |        |     |  +------| (100)
+   |  |        |  |        |     |        |     |         |  +--S._anceps_E
+   |  |        |  |        |     |        |     |         +--| (55)
+   |  |        |  |        |     |        |     |            +--S._anceps_LB654_extraction
+   |  |        |  |        |     |        |  +--| (100)
+   |  |        |  |        |     |        |  |  +---------S._mite_LB832_extraction
+   |  |        |  |        |     |        +--| (100)
+   |  |        |  |        |     |           +----------S._trifolium_LB2368_extraction
+   |  |        |  |        |  +--| (100)
+   |  |        |  |        |  |  |  +------------------------S._oxycoccoides_E
+   |  |        |  |        |  |  +--| (100)
+   |  |        |  |        |  |     |                    +--S._brachyantherum_MO
+   |  |        |  |        |  |     |             +------| (100)
+   |  |        |  |        |  |     |             |      +---S._trinominum_MO
+   |  |        |  |        |  |     |    +--------| (100)
+   |  |        |  |        |  |     |    |        +-----------S._multifidum_MO
+   |  |        |  |        |  |     +----| (100)
+   |  |        |  |        |  |          +--------------------------------S._dulcamara_KY863443.1_extraction
+   |  |        |  |        +--| (100)
+   |  |        |  |           |                +-----S._skutchii_MO
+   |  |        |  |           |             +--| (100)
+   |  |        |  |           |             |  +--S._appendiculatum_MO
+   |  |        |  |           +-------------| (100)
+   |  |        |  |                         |     +--S._complectens_MO
+   |  |        |  |                         |  +--| (100)
+   |  |        |  |                         |  |  +--S._chimborazense_MO
+   |  |        |  |                         +--| (100)
+   |  |        |  |                            +---S._sodiroi_LB1047_extraction
+   |  |        +--| (100)
+   |  |           |                        +--S._arcanum_MN990080.1_extraction
+   |  |           |                     +--| (89)
+   |  |           |                     |  +--S._neorickii_TS-146_KP117025.1_extraction
+   |  |           |                  +--| (100)
+   |  |           |                  |  |     +--S_chilense_TS-408_KP117021.1_extraction
+   |  |           |                  |  |  +--| (100)
+   |  |           |                  |  |  |  +--S._peruvianum_TS-404_KP117026.1_extraction
+   |  |           |                  |  +--| (100)
+   |  |           |                  |     +--S._corneliomuelleri_MN990082.1_extraction
+   |  |           |               +--| (100)
+   |  |           |               |  +--S._pennellii_KY887589.1_extraction
+   |  |           +---------------| (100)
+   |  |                           |  +--S._habrochaites_TS-407_NC_026879.1_extraction
+   |  |                           +--| (100)
+   |  |                              +--S._pimpinellifolium_TS-415_KP117027.1_extraction
+   +--| (32)
+      |     +--S._flahaultii_PI_498164_extraction
+      |  +--| (66)
+      |  |  +--S._oxycarpum_PI_607853_extraction
+      +--| (100)
+         +---S._longiconicum_PI_604093_extraction
+
+
+Consensus tree in newick format: 
+
+(S._albicans_PI_365308_extraction:0.0002684023,((S._acaule_MK036506.1_extraction:0.0000698716,S._x-aemulans_PI_472793_extraction:0.0001644489)100:0.0001722007,S._boliviense_CORD:0.0002141011)91:0.0000144468,((((S._acroscopicum_4x_PI_230495_extraction:0.0001880561,S._candolleanum_BM:0.0001499389)52:0.0000076413,(S._medians_PI_458402_MH021515.1_extraction:0.0001556012,S._dolichocremastrum_CIP_762998_ON509800.1_extraction:0.0004170663)47:0.0000081511)100:0.0003428140,(S._lignicaule_CIP_761652_ON509754.1_extraction:0.0002432386,S._raphanifolium_CIP_762358_ON509781.1_extraction:0.0004519729)80:0.0000542324)56:0.0000389635,(((((S._x-doddsii_PI_545860_extraction:0.0000232890,S._brevicaule_4x_PI_546008_extraction:0.0000232890)100:0.0001475223,S._infundibuliforme_PI_458324_ON509830.1_extraction:0.0001164601)100:0.0004373575,((((((((((S._guerreroense_PI_653828_extraction:0.0000310524,S._demissum_MK036508.1_extraction:0.0000388159)100:0.0000543434,S._iopetalum_SI-1_MZ233587.1_extraction:0.0000776359)76:0.0000016496,S._verrucosum_PI_498061_MH021586.1_extraction:0.0000310524)89:0.0000155259,S._hougasii_SH2-10_MF471372.1_extraction:0.0000543434)27:0.0000016496,S._schenckii_PI_498040_extraction:0.0000232890)37:0.0000016496,((S_stoloniferum_2x_PI_558394.1_extraction:0.0000016496,S._stoloniferum_4x_PI_558394.2_extraction:0.0000016496)100:0.0000232890,S._hjertingii_MK690623.1_extraction:0.0000016496)100:0.0000695717)100:0.0002873351,S._gandarillasii_OM638072.1_extraction:0.0003146274)95:0.0000388159,S._neocardenasii_CIP_764035_ON509816.1_extraction:0.0001621099)36:0.0000016496,((((S._chacoense_PI_472816_MH021457.1_extraction:0.0001888147,S._microdontum_PI_458355_ON509831.1_extraction:0.0001854540)58:0.0000260537,S._vernei_PI_473303_MH021583.1_extraction:0.0001191035)50:0.0000089964,(S._okadae_PI_458368_ON509833.1_extraction:0.0003493875,S._venturii_PI_320327_MH021484.1_extraction:0.0003419997)99:0.0000373230)100:0.0000642675,S._kurtzianum_PI_472948_MH021496.1_extraction:0.0002018582)80:0.0000155259)17:0.0000016496,((((((S._berthaultii_PI_545850_MH021418.1_extraction:0.0001255214,S._brevicaule_2x_PI_597742_extraction:0.0016311123)76:0.0000214508,S._laxissimum_PI_283088_MH021500.1_extraction:0.0003221174)70:0.0000148369,S._neorossii_CIP_764170_ON509818.1_extraction:0.0001319909)100:0.0000931651,S._stipuloideum_CIP_761030_ON509737.1_extraction:0.0003414934)40:0.0000073891,S._violaceimarmoratum_PI_473396_MH021594.1_extraction:0.0004495549)67:0.0000149943,S._commersonii_Lz3.2_KM489054_extraction:0.0003726936)35:0.0000016496)100:0.0002964990)43:0.0000016496,((((((((((S._colombianum_PI_567834_extraction:0.0001021960,S._andreanum_4x_PI_561645_extraction:0.0001721525)100:0.0003379175,S._andreanum_2x_PI_561662_extraction:0.0007928895)46:0.0000469446,S._piurae_CIP_761072_ON509741.1_extraction:0.0004005034)52:0.0000138940,S._paucissectum_PI_473489_MH021536.1_extraction:0.0004964849)100:0.0002688807,S._mochiquense_CIP_762989_ON509799.1_extraction:0.0004375234)63:0.0000051366,S._x_blanco-galdosii_PI_498214_MH021419.1_extraction:0.0003053056)100:0.0000558002,(S._multiinterruptum_PI_365338_MH021527.1_extraction:0.0008127942,S._acroscopicum_2x_PI_365314_MH021400.1_extraction:0.0005781347)89:0.0000146206)100:0.0000861857,(S._immite_PI_498245_extraction:0.0003598920,(S._huancabambense_CIP_760955_ON509735.1_extraction:0.0004010285,S._chomatophilum_PI_365339_MH021461.1_extraction:0.0012298859)100:0.0001154081)98:0.0000236779)100:0.0002881260,S._albornozii_PI_498206_MH021402.1_extraction:0.0024405108)100:0.0000999854,(((S._bulbocastanum_PI_604074_MH021439.1_extraction:0.0008251144,S._cardiophyllum_PI_347759_MH021454.1_extraction:0.0013962098)100:0.0001552368,((S._ehrenbergii_ON509828.1_PI_275216_extraction:0.0000621074,(S._stenophyllidium_PI_558460_MH021421.1_extraction:0.0001567801,((S._jamesii_PI_641944_MH021492.1_extraction:0.0001813162,S._pinnatisectum_PI_253214_MH021546.1_extraction:0.0003264623)58:0.0000130806,(S._tarnii_CIP_764285_ON509823.1_extraction:0.0000785512,S._trifidum_CIP_764145_ON509818.1_extraction:0.0001773582)100:0.0001319909)56:0.0000085570)70:0.0000077629)100:0.0001715918,((S._lesteri_CIP_764266_ON509821.1_extraction:0.0003471238,S._polyadenium_PI_161728_MH021548.1_extraction:0.0003523842)100:0.0005721966,(S._clarum_PI_275202_extraction:0.0011551287,S._morelliforme_CIP_764271_ON509822.1_extraction:0.0012485041)100:0.0010002411)99:0.0000536064)100:0.0012495125)100:0.0001555480,(((S._etuberosum_E:0.0001563012,S._palustre_PI_245763_MH021531.1_extraction:0.0001063705)100:0.0024066820,((S._taeniotrichum_MO:0.0036976048,((S._trachycarpum_A44750223_extraction:0.0005871250,S._basendopogon_904750165_extraction:0.0004811383)70:0.0000167729,((S._caripense_35_extraction:0.0001638207,(S._basendopogon_E:0.0000016496,S._tabanoense_E:0.0000016496)100:0.0001803366)100:0.0001673783,(S._suaveolens_E:0.0000404191,S._suaveolens_834750004_extraction:0.0000618616)100:0.0003480633)80:0.0000344314)100:0.0033382803)100:0.0006587235,(((((S._limoncochaense_LB2391_extraction:0.0020336591,((S._phaseoloides_MO:0.0001914173,S._phaseoloides_LB693_extraction:0.0003547231)100:0.0013504851,(S._pentaphyllum_MO:0.0000016496,S._pentaphyllum_LB2515_extraction:0.0000016496)100:0.0013905397)100:0.0003399094)100:0.0005849718,(((S._loxophyllum_MO:0.0003591116,(S._crassinervium_LB2397_extraction:0.0002537708,(S._evolvulifolium_LB709_extraction:0.0000698204,S._evolvulifolium_LB2520_extraction:0.0000396177)100:0.0002586844)100:0.0001589945)100:0.0009093765,(S._pacificum_MO:0.0000534178,S._pacificum_LB2370_extraction:0.0000401022)100:0.0009410202)100:0.0005829253,S._dalibardiforme_LB2454_extraction:0.0009399533)100:0.0009867247)85:0.0000785115,((((((S._trizygum_MO:0.0000740456,S._trizygum_LB2335_extraction:0.0000831088)100:0.0006537376,(S._ternatum_E:0.0006066567,S._savanillense_LB1381_extraction:0.0003249864)100:0.0004634634)100:0.0001877713,S._incurvum_MO:0.0026900117)100:0.0004642831,(((S._conicum_E:0.0003556763,S._anceps_LB2282_extraction:0.0002156488)100:0.0003807655,S._chamaepolybotryon_E:0.0012713083)53:0.0000151063,(S._anceps_E:0.0001513922,S._anceps_LB654_extraction:0.0004575544)55:0.0000128215)100:0.0016405161)88:0.0000774196,S._mite_LB832_extraction:0.0022293351)100:0.0007537593,S._trifolium_LB2368_extraction:0.0025370753)100:0.0006590800)100:0.0019847536,(S._oxycoccoides_E:0.0054402729,(((S._brachyantherum_MO:0.0006251404,S._trinominum_MO:0.0009173259)100:0.0016249890,S._multifidum_MO:0.0027488758)100:0.0020862141,S._dulcamara_KY863443.1_extraction:0.0072210639)100:0.0011040970)100:0.0003854079)100:0.0005711475,((S._skutchii_MO:0.0013276738,S._appendiculatum_MO:0.0003484239)100:0.0002671276,((S._complectens_MO:0.0007377788,S._chimborazense_MO:0.0006400977)100:0.0001148968,S._sodiroi_LB1047_extraction:0.0010599332)100:0.0002015055)100:0.0031353059)100:0.0004829575)100:0.0013874038)100:0.0001930345,((((S._arcanum_MN990080.1_extraction:0.0001668660,S._neorickii_TS-146_KP117025.1_extraction:0.0000448543)89:0.0000825054,((S_chilense_TS-408_KP117021.1_extraction:0.0000077629,S._peruvianum_TS-404_KP117026.1_extraction:0.0000856151)100:0.0001172662,S._corneliomuelleri_MN990082.1_extraction:0.0002345364)100:0.0001818381)100:0.0001985464,S._pennellii_KY887589.1_extraction:0.0003740316)100:0.0001215618,(S._habrochaites_TS-407_NC_026879.1_extraction:0.0002531435,S._pimpinellifolium_TS-415_KP117027.1_extraction:0.0002168622)100:0.0005498291)100:0.0034875818)100:0.0005486369)100:0.0003150853)100:0.0002838822)95:0.0000439202,((S._flahaultii_PI_498164_extraction:0.0004188211,S._oxycarpum_PI_607853_extraction:0.0002873428)66:0.0000349600,S._longiconicum_PI_604093_extraction:0.0009015485)100:0.0006136861)32:0.0000070612)100:0.0002923686);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ./Input/FinalIQ.fasta.treefile -m "TVM{0.888257,0.873234,0.120522,0.289457}+F{0.310823,0.186161,0.182931,0.320085}+I{0.572513}+R6{0.139539,1.44762,0.137361,1.44875,0.127643,1.46152,0.0211893,13.1941,0.00164097,62.7757,0.000114891,259.906}" --length 128820
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ./Input/FinalIQ.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ./Input/FinalIQ.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Apr 28 13:23:52 2026
+Total CPU time used: 409073.6592 seconds (113h:37m:53s)
+Total wall-clock time used: 413379.8121 seconds (114h:49m:39s)
+

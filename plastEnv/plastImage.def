@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: mambaorg/micromamba:latest
+
+%files
+    plastEnv.yml /plastEnv.yml
+
+%post
+    micromamba install -n base --file plastEnv.yml && \
+        micromamba clean --all --yes
+
+
