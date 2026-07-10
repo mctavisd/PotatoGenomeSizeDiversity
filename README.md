@@ -6,26 +6,26 @@
 
 ### FILE INDEX:
 
-- analyses: R scripts used for analyses of genome size and climate.\
-  - ancReconstruction.R: Script for estimation of phylogenetic signal and ancestral reconstruction of genome size.\
-  - PGLS.R: Script for running Phylogenetic Generalized Least Squares analyses.\
+- analyses: R scripts used for analyses of genome size and climate.
+  - ancReconstruction.R: Script for estimation of phylogenetic signal and ancestral reconstruction of genome size.
+  - PGLS.R: Script for running Phylogenetic Generalized Least Squares analyses.
   - seqEstimatesComp.R: Script for comparing sequence-based genome size estimates to flow cytometry.
 
-- climScripts: Scripts used to clean occurrence data and assign and/or calculate climatic variables.\
-  - 01_occCleaning.R: Removes uncertain or duplicate occurrence records from occurrence dataset and performs spatial filtering.\
-  - 02_climateAssignment.R: Assigns values for climatic variables to the clean occurrence dataset and calculates species-level means for each variable.\
-  - 03_climateMeansPCA.R: Performs Principal Component Analysis on species-level mean climatic variables, to examine correlations and prune extraneous variables.\
-	04_Niche_Assign.R: Assign niche breadth values to the variables kept after trimming extraneous ones.\
+- climScripts: Scripts used to clean occurrence data and assign and/or calculate climatic variables.
+  - 01_occCleaning.R: Removes uncertain or duplicate occurrence records from occurrence dataset and performs spatial filtering.
+  - 02_climateAssignment.R: Assigns values for climatic variables to the clean occurrence dataset and calculates species-level means for each variable.
+  - 03_climateMeansPCA.R: Performs Principal Component Analysis on species-level mean climatic variables, to examine correlations and prune extraneous variables.
+	04_Niche_Assign.R: Assign niche breadth values to the variables kept after trimming extraneous ones.
 	05_nicheCorr.R. Calculates Pearson's correlation coefficients between each mine and niche variable.
 
-- GSEstimation: Files used for sequence-based genome size estimation.\
-	kraken2: Script for building the required Kraken2 library, krakenBuild.sh.\
-	krakenRuns: Script files for running Kraken2 on required files.\
-		BGIKrakenRun.sh: Filters BGI sequences.\
-		mayExtraKrakenRun.sh: Filters extra  BGI sequences for comparison to flow cytometry.\
-		tepeKrakenRun.sh: Filters sequences sourced from Eric Tepe.\
-	LocoGSE: Scripts for generating genome size estimates vie LocoGSE.\
-	Respect: Scripts for generating genome size estimates via RESPECT.\
+- GSEstimation: Files used for sequence-based genome size estimation.
+  - kraken2: Script for building the required Kraken2 library, krakenBuild.sh.
+  - krakenRuns: Script files for running Kraken2 on required files.
+  - BGIKrakenRun.sh: Filters BGI sequences.
+    - mayExtraKrakenRun.sh: Filters extra  BGI sequences for comparison to flow cytometry.
+    - tepeKrakenRun.sh: Filters sequences sourced from Eric Tepe.\
+  - LocoGSE: Scripts for generating genome size estimates vie LocoGSE.
+  - Respect: Scripts for generating genome size estimates via RESPECT.\
 		BGIRespect.sh: Generates RESPECT estimates for BGI files.\
 		extrasRespect.sh: Generates RESPECT estimates for extra  BGI sequences for comparison to flow cytometry.\
 		tepeRespect.sh: Generates RESPECT estimates for sequences sourced from Eric Tepe.\
