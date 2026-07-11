@@ -2,7 +2,7 @@
 
 ## "Is genome size diversity in the Pinnatifida clade (Solanum L.): associated with climate?"
 
-### NOTE: This is unfinished; all required scripts are present, but input files are required and some scripts requiree adjustment to different directories. Steps 3 and 5-7 are complete and fully reproducible.
+### NOTE: This is unfinished; all required scripts are present, but input files are required and some scripts requiree adjustment to different directories. Steps 5-7 are complete and reproducible.
 
 ### FILE INDEX:
 
