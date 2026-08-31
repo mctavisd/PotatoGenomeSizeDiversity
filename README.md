@@ -1,8 +1,6 @@
 # Summer 2026: Delaney McTavish-McHugh, Master's Thesis in Integrative Biology, University of Guelph
 
-## "Is genome size diversity in the Pinnatifida clade (Solanum L.): associated with climate?"
-
-### NOTE: This is unfinished; all required scripts are present, but input files are required and some scripts requiree adjustment to different directories. Steps 5-7 are complete and reproducible.
+## "Genome size diversity in the Pinnatifida clade (Solanum L.) is weakly associated with climatic niche"
 
 ### FILE INDEX:
 
